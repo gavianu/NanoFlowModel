@@ -11,6 +11,10 @@ This is the structured index of the NanoFlowModel scientific documentation repos
 - [04. Future Development and Applications](docs/04_future_plans.md)
 - [05. Scientific References](references/papers.md)
 
+## 📄 Composite Document
+
+- [📘 Bachelor Thesis Draft](thesis.md)
+
 ## 🔗 Related Repositories
 
 - [vortex-box-test](https://github.com/yourusername/vortex-box-test)

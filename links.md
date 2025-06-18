@@ -14,3 +14,7 @@
 - [📄 Experimental Log](docs/02_experiment_log.md)
 - [📄 Results](docs/03_results.md)
 - [📄 References](references/papers.md)
+
+## 📄 Drafts and Deliverables
+
+- [🎓 Bachelor Thesis Draft](../thesis.md)
