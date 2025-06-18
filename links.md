@@ -17,4 +17,4 @@
 
 ## 📄 Drafts and Deliverables
 
-- [🎓 Bachelor Thesis Draft](../thesis.md)
+- [🎓 Bachelor Thesis Draft](thesis.md)
