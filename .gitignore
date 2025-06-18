@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
