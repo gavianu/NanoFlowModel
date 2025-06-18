@@ -9,6 +9,10 @@
 
 The results suggest that **directional accumulation** can occur in completely random systems when **geometric or material asymmetries** are present — a principle that could lead to energy guiding or harvesting systems at the nanoscale.
 
+### Test002 – Dual-wall asymmetry
+
+- ![📈 plot](../results/test002_dual_wall_asymmetry_plot.png)
+
 ### Test003 – Heat Drift with Exit
 
 - Extended to 10,000 steps
