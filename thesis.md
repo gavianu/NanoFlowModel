@@ -39,3 +39,4 @@ Further simulation and nano-engineering steps are needed to approach practical e
 
 - Code repository: [vortex-box-test](https://github.com/yourusername/vortex-box-test)
 - Simulation parameters, figures, and logs will be added in final submission.
+- Plot: Heat Drift Mean Position – [📈 View Graph](results/test003_mean_position_plot.png)

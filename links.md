@@ -14,6 +14,8 @@
 - [📄 Experimental Log](docs/02_experiment_log.md)
 - [📄 Results](docs/03_results.md)
 - [📄 References](references/papers.md)
+- [📄 Future Plans](docs/04_future_plans.md)
+- [📁 Simulation Results](results/)
 
 ## 📄 Drafts and Deliverables
 
