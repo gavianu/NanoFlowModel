@@ -1,22 +1,40 @@
 # NanoFlowModel
 
-This repository documents the theoretical background, experiments, and conceptual development of the **NanoFlowModel** project — a research-oriented initiative to explore how geometry and material design can convert microscopic thermal chaos into structured motion.
+**NanoFlowModel** is a scientific documentation project exploring how geometry and nanostructures can convert chaotic Brownian motion into directional or localized effects — without external energy input.
 
-## Key Themes
+The goal is to understand whether carefully engineered environments (e.g., fractal or horn-shaped microchannels) can structure thermal noise, and potentially lead to new energy-harvesting or propulsion mechanisms for small-scale systems.
 
-- Brownian motion and its manipulation
-- Passive directional bias from geometry (entropic design)
-- Fractal-inspired and biological fluid dynamics
-- Link to theoretical models: Brownian ratchet, entropic barrier systems
+This repository contains only the documentation and theoretical framework for the project. Experimental code is maintained in separate simulation repositories.
 
-## Related Simulation Code
+---
 
-The simulations and code are hosted in separate repositories:
+## 🔍 What You'll Find Here
 
-- 🔬 [`vortex-box-test`](https://github.com/gavianu/vortex-box-test.git) – Brownian cube prototype
-- 🔄 [`flow-bias-walls`](#) – Next step: asymmetric walls and trapping
-- 🧬 [`fractal-tube-model`](#) – In development: biologically inspired geometries
+📘 Structured documentation covering:
 
-## License
+- Scientific background
+- Brownian and fluid dynamics theory
+- Simulation design and methodology
+- Early experimental results
+- Future plans and real-world applications
+- Academic and reference material
 
-Documentation is shared under the [Creative Commons BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+---
+
+## 📂 Start Here
+
+For the full table of contents, begin with:
+
+👉 [📚 Documentation Index](index.md)
+
+---
+
+## 🔗 Related Repositories
+
+- [vortex-box-test (simulations)](https://github.com/yourusername/vortex-box-test)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License – see [`LICENSE.md`](LICENSE.md) for details.
