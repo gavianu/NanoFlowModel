@@ -53,7 +53,6 @@ The inclusion of an asymmetric "exit" region at the top-right corner leads to a 
 📊 Output:
 
 - [CSV log](../results/test004_terrace_wall_drift.csv)
-- [Python source](../test004_terrace_wall_drift.py)
 
 _Observation_: The stronger rebound velocity from the terrace wall promotes a shift in particle density toward the chimney-like exit.
 
