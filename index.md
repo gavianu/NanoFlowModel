@@ -1,3 +1,9 @@
+<!-- Load MathJax for LaTeX rendering -->
+<script type="text/javascript"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # NanoFlowModel – Scientific Documentation Index
 
 This repository documents the development of the **NanoFlowModel**: a theoretical and experimental framework designed to explore whether Brownian motion can be geometrically biased and harvested for energy and motion.

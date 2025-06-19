@@ -24,9 +24,9 @@ The spread of particles due to Brownian motion is described statistically using 
 
 ### LaTeX form:
 
-\[
+$$
 \langle x^2(t) \rangle = 2 D t \quad \text{(1D)}, \quad \langle r^2(t) \rangle = 6 D t \quad \text{(3D)}
-\]
+$$
 
 ### Notebook-style:
 
@@ -52,9 +52,9 @@ For a spherical particle in a viscous fluid, the diffusion coefficient \( D \) i
 
 ### LaTeX form:
 
-\[
+$$
 D = \frac{k_B T}{6 \pi \eta r}
-\]
+$$
 
 ### Notebook-style:
 
@@ -84,9 +84,9 @@ In real gases, particles follow a velocity distribution depending on temperature
 
 ### LaTeX form:
 
-\[
+$$
 f(v) = \left( \frac{m}{2 \pi k_B T} \right)^{3/2} \cdot 4 \pi v^2 \cdot e^{- \frac{m v^2}{2 k_B T}}
-\]
+$$
 
 ### Notebook-style:
 
@@ -118,9 +118,9 @@ The Langevin equation is a stochastic differential equation that models the moti
 
 ### LaTeX form:
 
-\[
+$$
 m \frac{d^2x}{dt^2} = -\gamma \frac{dx}{dt} + \sqrt{2 \gamma k_B T} \cdot \xi(t)
-\]
+$$
 
 ### Notebook-style:
 
@@ -156,9 +156,9 @@ The Fokker–Planck equation describes how the **probability density function** 
 
 ### 📏 1D Form:
 
-\[
+$$
 \frac{\partial P(x, t)}{\partial t} = D \cdot \frac{\partial^2 P(x, t)}{\partial x^2}
-\]
+$$
 
 📓 Notebook-style:
 ∂P(x, t)/∂t = D · ∂²P(x, t)/∂x²
@@ -167,9 +167,9 @@ The Fokker–Planck equation describes how the **probability density function** 
 
 ### 📐 2D Form:
 
-\[
+$$
 \frac{\partial P(x, y, t)}{\partial t} = D \cdot \left( \frac{\partial^2 P}{\partial x^2} + \frac{\partial^2 P}{\partial y^2} \right)
-\]
+$$
 
 📓 Notebook-style:
 ∂P(x, y, t)/∂t = D · (∂²P/∂x² + ∂²P/∂y²)
@@ -178,9 +178,9 @@ The Fokker–Planck equation describes how the **probability density function** 
 
 ### 🧊 3D Form (used in our simulations):
 
-\[
+$$
 \frac{\partial P(x, y, z, t)}{\partial t} = D \cdot \left( \frac{\partial^2 P}{\partial x^2} + \frac{\partial^2 P}{\partial y^2} + \frac{\partial^2 P}{\partial z^2} \right)
-\]
+$$
 
 📓 Notebook-style:
 ∂P(x, y, z, t)/∂t = D · (∂²P/∂x² + ∂²P/∂y² + ∂²P/∂z²)
@@ -207,9 +207,9 @@ The continuity equation expresses the **conservation of a quantity** (like mass,
 
 ### General vector form:
 
-\[
+$$
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
-\]
+$$
 
 📓 Notebook-style:
 ∂ρ/∂t + ∇·(ρ·v⃗) = 0
@@ -226,21 +226,21 @@ Where:
 
 #### 1D:
 
-\[
+$$
 \frac{\partial \rho(x,t)}{\partial t} + \frac{\partial}{\partial x} \left( \rho(x,t) \cdot v(x,t) \right) = 0
-\]
+$$
 
 #### 2D:
 
-\[
+$$
 \frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x}(\rho v_x) + \frac{\partial}{\partial y}(\rho v_y) = 0
-\]
+$$
 
 #### 3D (used conceptually in our simulations):
 
-\[
+$$
 \frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x}(\rho v_x) + \frac{\partial}{\partial y}(\rho v_y) + \frac{\partial}{\partial z}(\rho v_z) = 0
-\]
+$$
 
 ---
 
@@ -268,9 +268,9 @@ The **coefficient of restitution (e)** quantifies how elastic a collision is bet
 
 ### Formula:
 
-\[
+$$
 e = \frac{v*{\text{after}}}{v*{\text{before}}}
-\]
+$$
 
 📓 Notebook-style:
 e = v_after / v_before
@@ -308,4 +308,4 @@ Where:
 - Smart materials with selective energy reflection or absorption
 
 [↑ Back to top](#)  
-[← Back to index](index.md)
+[← Back to index](../index.md)
