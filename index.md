@@ -31,6 +31,10 @@ Summary tables, plots and analysis of particle drift, mean position over time, a
 
 Proposed applications in passive cooling, nano-energy harvesting, and sustainable home design. Includes roadmap toward prototyping and academic publishing.
 
+### 📐 05 – [Theoretical Framework & Simulation Model](./docs/05_theory_and_model.md)
+
+Key physical principles and analytical models: Brownian motion, Langevin dynamics, Fokker–Planck diffusion, particle flow continuity, and collision restitution. Supports the logic behind all NanoFlowModel experiments.
+
 ---
 
 ## 🧾 Additional Materials

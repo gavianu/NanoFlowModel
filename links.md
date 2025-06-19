@@ -19,6 +19,10 @@
 - [📜 Poetic Reflection](docs/poetry.md)
 - [← Back to index](../index.md)
 
+## 📐 Models and Equations
+
+- [Theoretical Framework and Simulation Model](docs/05_theory_and_model.md)
+
 ## 📄 Drafts and Deliverables
 
 - [🎓 Bachelor Thesis Draft](thesis.md)

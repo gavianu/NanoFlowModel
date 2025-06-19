@@ -21,11 +21,24 @@ This thesis explores the possibility of extracting order from thermal noise by d
 3. [NanoFlowModel Design Hypothesis](README.md)
 4. [Experimental Setup and Simulation Method](docs/02_experiment_log.md)
 5. [Results and Interpretation](docs/03_results.md)
-6. [Applications and Future Work](docs/04_future_plans.md)
-7. [Conclusion](#conclusion)
-8. [References](references/papers.md)
+6. [Theoretical Framework and Analytical Model](docs/05_theory_and_model.md)
+7. [Applications and Future Work](docs/04_future_plans.md)
+8. [Conclusion](#conclusion)
+9. [References](references/papers.md)
 
 ---
+
+## Theoretical Framework and Analytical Model
+
+This section presents the mathematical principles and physical models that support the simulation experiments in this thesis. Starting from the stochastic behavior of Brownian particles, it includes:
+
+- Mean squared displacement (MSD) and diffusion models
+- Langevin and Fokker–Planck equations
+- Continuity in flow and particle density
+- Restitution coefficients in collision modeling
+
+For full derivations and interpretations, see:  
+→ [05_theory_and_model.md](docs/05_theory_and_model.md)
 
 ## Conclusion
 
