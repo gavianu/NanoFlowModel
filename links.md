@@ -16,6 +16,7 @@
 - [📄 References](references/papers.md)
 - [📄 Future Plans](docs/04_future_plans.md)
 - [📁 Simulation Results](results/)
+- [📜 Poetic Reflection](docs/poetry.md)
 
 ## 📄 Drafts and Deliverables
 

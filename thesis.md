@@ -41,3 +41,5 @@ Further simulation and nano-engineering steps are needed to approach practical e
 - Simulation parameters, figures, and logs will be added in final submission.
 - Plot: Dual-Wall Asymmetry – [📈 View Graph](results/test002_dual_wall_asymmetry_plot.png)
 - Plot: Heat Drift Mean Position – [📈 View Graph](results/test003_mean_position_plot.png)
+- Conceptual poetry reflecting the origins of NanoFlow:  
+  → [“Lume fără fir și independență energetică”](docs/poetry.md)
