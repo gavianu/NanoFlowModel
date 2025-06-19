@@ -1,6 +1,8 @@
 # 04 – Future Plans and Research Vision
 
-This section outlines the personal and technical roadmap of the NanoFlowModel research — from academic goals to industrial applications. It is intended as both a near-term plan for licensing and a long-term program for energy and propulsion innovation.
+This section outlines the future technical directions of the NanoFlowModel research.  
+It explores possible applications in smart thermal systems, nanoscale motion control, and passive energy solutions — based on the asymmetric drift behavior observed in the experiments.  
+The aim is to provide a foundation for both theoretical investigation and practical development.
 
 ---
 
