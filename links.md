@@ -17,7 +17,6 @@
 - [📄 Future Plans](docs/04_future_plans.md)
 - [📁 Simulation Results](results/)
 - [📜 Poetic Reflection](docs/poetry.md)
-- [← Back to index](../index.md)
 
 ## 📐 Models and Equations
 
@@ -27,4 +26,5 @@
 
 - [🎓 Bachelor Thesis Draft](thesis.md)
 
-[↑ Back to top](#)
+[↑ Back to top](#)  
+[← Back to index](index.md)
