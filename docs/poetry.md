@@ -50,3 +50,5 @@ It evokes:
 It stands not just as a metaphor, but as a literary artifact of scientific imagination — echoing the goal to harvest the disordered motion of nature into useful, directional flow.
 
 ---
+
+[← Back to index](../index.md)

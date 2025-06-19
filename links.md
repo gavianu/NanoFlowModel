@@ -17,7 +17,10 @@
 - [📄 Future Plans](docs/04_future_plans.md)
 - [📁 Simulation Results](results/)
 - [📜 Poetic Reflection](docs/poetry.md)
+- [← Back to index](../index.md)
 
 ## 📄 Drafts and Deliverables
 
 - [🎓 Bachelor Thesis Draft](thesis.md)
+
+[↑ Back to top](#)

@@ -36,6 +36,7 @@ Proposed applications in passive cooling, nano-energy harvesting, and sustainabl
 
 - 📁 [`results/`](./results): Simulation outputs, logs and plots
 - 📁 [`references/`](./references): Research papers, citations and background material
+- 📚 [Scientific Papers & References](references/papers.md)
 - 📄 [`thesis.md`](./thesis.md): Draft version of the bachelor thesis, linked to the above structure
 - 🎴 [Poetic Reflection on NanoFlow](docs/poetry.md)
 
@@ -48,4 +49,4 @@ System files and personal configurations are excluded via `.gitignore`.
 
 ---
 
-_Last updated: June 18, 2025_
+_Last updated: June 19, 2025_

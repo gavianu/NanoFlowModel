@@ -61,3 +61,6 @@ As the project evolves into product-oriented designs or field applications, furt
 - Nanoengineering fabrication techniques (e.g., CNT arrays, soft lithography)
 - Simulation frameworks for multiphysics (e.g., LBM, CFD+Monte Carlo hybrid)
 - Energy harvesting at the nanoscale (e.g., thermoelectric or piezoelectric microdevices)
+
+[↑ Back to top](#)
+[← Back to index](../index.md)

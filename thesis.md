@@ -33,6 +33,8 @@ The preliminary results demonstrate spatial particle accumulation purely from as
 
 Further simulation and nano-engineering steps are needed to approach practical energy or propulsion prototypes.
 
+See [papers.md](references/papers.md) for full citations and scientific background.
+
 ---
 
 ## Appendix
@@ -42,4 +44,7 @@ Further simulation and nano-engineering steps are needed to approach practical e
 - Plot: Dual-Wall Asymmetry – [📈 View Graph](results/test002_dual_wall_asymmetry_plot.png)
 - Plot: Heat Drift Mean Position – [📈 View Graph](results/test003_mean_position_plot.png)
 - Conceptual poetry reflecting the origins of NanoFlow:  
-  → [“Lume fără fir și independență energetică”](docs/poetry.md)
+  → ["Independent și liber (Natura)”](docs/poetry.md)
+
+[↑ Back to top](#)
+[← Back to index](../index.md)
