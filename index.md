@@ -21,6 +21,7 @@ Step-by-step simulations including:
 - Test001: Uniform Brownian Box
 - Test002: Dual-Wall Asymmetry
 - Test003: Heat Drift Geometry (Smart Cooling)
+- 🔷 [Test004 – Terrace Wall Drift](docs/03_results.md#test004--terrace-wall-drift)
 
 ### 📊 03 – [Results](./docs/03_results.md)
 
@@ -34,8 +35,6 @@ Proposed applications in passive cooling, nano-energy harvesting, and sustainabl
 
 ## 🧾 Additional Materials
 
-- 📁 [`results/`](./results): Simulation outputs, logs and plots
-- 📁 [`references/`](./references): Research papers, citations and background material
 - 📚 [Scientific Papers & References](references/papers.md)
 - 📄 [`thesis.md`](./thesis.md): Draft version of the bachelor thesis, linked to the above structure
 - 🎴 [Poetic Reflection on NanoFlow](docs/poetry.md)

@@ -35,5 +35,26 @@
 - **Goal**:  
   Demonstrate that asymmetry + boundary design can produce thermal biasing usable in tiny/smart homes.
 
+  ***
+
+### Test004 – Terrace Wall Drift (Passive Thermal Repulsion)
+
+- **Date**: June 19, 2025
+- **Type**: Digital simulation (from `vortex-box-test` project)
+- **Objective**: Evaluate if a terrace-facing reflective wall can induce passive thermal drift
+- **Geometry**:
+
+  - 1 m³ virtual box
+  - Reflective wall at x = 0 (simulated elastic rebound amplification)
+  - Open "exit zone" at x > 0.9 and y > 0.9
+
+- **Key Insight**:
+  Elastic acceleration on one side promotes particle movement toward the exit, replicating a cooling effect
+  through spatial bias — without any external energy input.
+
+- **Results integrated in**:
+  - [Results summary](03_results.md#test004--terrace-wall-drift)
+  - [Future plans](04_future_plans.md#smart-passive-wall-cooling)
+
 [↑ Back to top](#)  
 [← Back to index](../index.md)

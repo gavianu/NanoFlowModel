@@ -1,10 +1,11 @@
 # Experimental Results Summary
 
-| Test # | Description         | Net Flow     | X̄ Position | Notes                                 |
-| ------ | ------------------- | ------------ | ---------- | ------------------------------------- |
-| 001    | Uniform cube        | None         | ~0.0000 m  | Baseline for Brownian chaos           |
-| 002    | Dual-wall asymmetry | Rightward    | ~+0.0300 m | Passive entropic accumulation         |
-| 003    | Heat Drift Geometry | Strong drift | ~+0.4412 m | Chimney-like exit; directional effect |
+| Test # | Description         | Net Flow     | X̄ Position | Notes                                   |
+| ------ | ------------------- | ------------ | ---------- | --------------------------------------- |
+| 001    | Uniform cube        | None         | ~0.0000 m  | Baseline for Brownian chaos             |
+| 002    | Dual-wall asymmetry | Rightward    | ~+0.0300 m | Passive entropic accumulation           |
+| 003    | Heat Drift Geometry | Strong drift | ~+0.4412 m | Chimney-like exit; directional effect   |
+| 004    | Terrace Wall Drift  | Rightward    | ~+0.42 m   | Simulated heat rejection via reflection |
 
 ---
 
@@ -38,6 +39,25 @@ The inclusion of an asymmetric "exit" region at the top-right corner leads to a 
 ![Test003 Plot](../results/test003_mean_position_plot.png)
 
 👉 See [04_future_plans.md](./04_future_plans.md) for product applications and prototyping.
+
+---
+
+### Test004 – Terrace Wall Drift
+
+- **Setup**: virtual 1m³ space, terrace-facing wall at x=0 with strong elastic collisions
+- **Mechanism**: particles bounce back faster from x=0 wall (simulating heat repelling)
+- **Exit zone**: top-right corner (x > 0.9, y > 0.9)
+
+**Expected result**: a passive drift of thermal energy away from the terrace wall, confirming directional flow by boundary material design.
+
+📊 Output:
+
+- [CSV log](../results/test004_terrace_wall_drift.csv)
+- [Python source](../test004_terrace_wall_drift.py)
+
+_Observation_: The stronger rebound velocity from the terrace wall promotes a shift in particle density toward the chimney-like exit.
+
+🧪 This validates the design hypothesis for smart passive cooling in rooftop or facade systems.
 
 ---
 

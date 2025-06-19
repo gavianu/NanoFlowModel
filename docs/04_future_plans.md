@@ -41,6 +41,7 @@ The experiment `Test003 – Heat Drift with Exit` validates the hypothesis that 
 
 ## 🛠️ Next Steps and Prototyping
 
+- **Smart Passive Wall Cooling**: Test004 demonstrates how a treated wall surface can induce particle drift outward, reducing thermal load on structures like rooftops, terraces, or camper walls — potential for self-regulating façade coatings.
 - Physical prototype using **nanotube arrays** or **differentially treated fabrics**
 - Integration into passive HVAC or micro-cooling circuits
 - Optimization for **renewable energy systems** or **micro propulsion units**
