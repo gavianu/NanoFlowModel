@@ -1,50 +1,88 @@
-# Future Development Plan
+# 04 – Future Plans and Research Vision
 
-## Short-term Goals
-
-- Export motion data to CSV for external analysis
-- Introduce voxel-based entropy measurement
-- Simulate geometries with tube-like channels (intestine-like)
-
-## Long-term Vision
-
-- Demonstrate a net flow model that replicates propulsion-like behavior
-- Apply fractal geometries to test multi-scale directional bias
-- Explore physical prototyping via microfluidic chips
-
-## Questions
-
-- Can passive asymmetry sustain energy gradients?
-- What limits exist on scale, power, and reversibility?
+This section outlines the personal and technical roadmap of the NanoFlowModel research — from academic goals to industrial applications. It is intended as both a near-term plan for licensing and a long-term program for energy and propulsion innovation.
 
 ---
 
-## ✅ Application Conclusion – Test003: Heat Drift Geometry
+## 🏗️ Research Domains of Application
 
-The experiment `Test003 – Heat Drift with Exit` validates the hypothesis that a 3D space with **passive wall asymmetry** can naturally induce thermal particle drift without requiring external energy inputs.
+### 🏠 Smart Building Environments
 
-🔬 The simulation results show a **statistical accumulation of particles** toward the top-right corner, where an exit zone ("chimney") is located. This dynamic confirms that **spatial geometry design** can guide Brownian motion in a predictable and controlled manner.
+- Walls and facades engineered with **selective particle reflection** and **directional drift zones**.
+- Self-cooling surface panels for rooftops and terraces.
+- Passive thermal control in off-grid housing (tiny homes, camper vans).
+
+### ⚙️ Thermal-Driven Energy Systems
+
+- Design of **closed-box systems** with asymmetric walls that accumulate kinetic energy into useful motion.
+- Conversion of chaotic thermal motion into directional bias — potentially usable for **low-power generation**.
+- Target: systems that can support **domestic energy loads**, such as lighting, sensors, or air circulation units.
+
+### ✈️ Propulsion and Motion Systems
+
+- Chambers with asymmetrical geometry for continuous drift, simulating micro-thrust.
+- Future integration into **nano-drones**, **surface gliders**, and **autonomous bots**.
+- Potential for passive motion in thin atmospheres or vacuum-microchannel systems.
 
 ---
 
-## 🏠 Market Relevance: Smart Home / Tiny House
+## 🧪 Basis in Experimentation
 
-✔️ This principle can be translated into a **passive thermal control product**, integrable in:
+The foundation is built upon two experiments:
 
-- **RVs and camper vans**
-- **Tiny houses / modular off-grid homes**
-- **Smart tent fabrics or outdoor enclosures**
+- **Test003 – Heat Drift Geometry**  
+  Passive chimney-like drift caused by reflective/absorbent wall pairing and vertical geometry
 
-🌡️ By using **walls with different properties** (reflective / absorbent), warm air can be passively guided to thermal exhaust zones without fans or electricity.
+- **Test004 – Terrace Wall Drift**  
+  Directional repulsion induced by wall elasticity (simulating material treatment)
+
+These experiments confirm that even at nanoscale or without external fields, **geometry and boundary behavior** can direct energy.
 
 ---
 
-## 🛠️ Next Steps and Prototyping
+## 📦 Product Use Cases
 
-- **Smart Passive Wall Cooling**: Test004 demonstrates how a treated wall surface can induce particle drift outward, reducing thermal load on structures like rooftops, terraces, or camper walls — potential for self-regulating façade coatings.
-- Physical prototype using **nanotube arrays** or **differentially treated fabrics**
-- Integration into passive HVAC or micro-cooling circuits
-- Optimization for **renewable energy systems** or **micro propulsion units**
+- Passive smart facades and rooftop vents
+- Microfluidic directional systems
+- Off-grid modules for cooling or micro-generation
+- Early-phase thrust/nozzle design for microbots
+- Thermal noise harvesting for IoT power
+
+---
+
+## 🔭 Long-Term Vision
+
+This research aims to blend:
+
+- Physics-based modeling (Brownian dynamics)
+- Nanotechnology and surface science
+- Generative design and simulation
+- Energy independence and environmental integration
+
+---
+
+## 🧭 Research Continuation
+
+This research framework is intended to remain open and adaptable.
+Both academic and independent exploration are encouraged — from formal theses and grants, to private experimentation, simulation, and prototyping.
+
+The phenomena studied here, although early in application, offer an expandable path toward:
+
+passive thermal control
+
+energy redirection
+
+Brownian-biased motion systems
+
+Whether pursued in academic labs, tech incubators, or garage setups, the results can shape future tools for self-sustaining environments.
+
+---
+
+## 📁 Related Files
+
+- [02_experiment_log.md](02_experiment_log.md)
+- [03_results.md](03_results.md)
+- [CSV result](../results/test004_terrace_wall_drift.csv)
 
 ---
 
