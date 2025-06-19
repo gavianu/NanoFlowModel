@@ -46,5 +46,5 @@ See [papers.md](references/papers.md) for full citations and scientific backgrou
 - Conceptual poetry reflecting the origins of NanoFlow:  
   → ["Independent și liber (Natura)”](docs/poetry.md)
 
-[↑ Back to top](#)
-[← Back to index](../index.md)
+[↑ Back to top](#)  
+[← Back to index](index.md)

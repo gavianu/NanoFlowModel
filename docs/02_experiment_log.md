@@ -35,5 +35,5 @@
 - **Goal**:  
   Demonstrate that asymmetry + boundary design can produce thermal biasing usable in tiny/smart homes.
 
-[↑ Back to top](#)
+[↑ Back to top](#)  
 [← Back to index](../index.md)

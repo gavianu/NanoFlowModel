@@ -38,5 +38,5 @@ This deep structural connection explains why similar equations appear in apparen
 
 NanoFlowModel is grounded in real physical principles: randomness, entropy, conservation laws, and the geometry of flow. Rather than violating the laws of thermodynamics, it investigates how intelligent structure alone can act as a passive engine of organization in systems rich with thermal energy and fluctuation.
 
-[↑ Back to top](#)
+[↑ Back to top](#)  
 [← Back to index](../index.md)

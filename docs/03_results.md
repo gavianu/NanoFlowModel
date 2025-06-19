@@ -1,17 +1,24 @@
 # Experimental Results Summary
 
-| Test # | Description         | Net Flow  | X̄ Position | Notes                         |
-| ------ | ------------------- | --------- | ---------- | ----------------------------- |
-| 001    | Uniform cube        | None      | ~0.0000 m  | Baseline for Brownian chaos   |
-| 002    | Dual-wall asymmetry | Rightward | ~+0.03 m   | Passive entropic accumulation |
+| Test # | Description         | Net Flow     | X̄ Position | Notes                                 |
+| ------ | ------------------- | ------------ | ---------- | ------------------------------------- |
+| 001    | Uniform cube        | None         | ~0.0000 m  | Baseline for Brownian chaos           |
+| 002    | Dual-wall asymmetry | Rightward    | ~+0.0300 m | Passive entropic accumulation         |
+| 003    | Heat Drift Geometry | Strong drift | ~+0.4412 m | Chimney-like exit; directional effect |
+
+---
 
 ### Interpretation
 
 The results suggest that **directional accumulation** can occur in completely random systems when **geometric or material asymmetries** are present — a principle that could lead to energy guiding or harvesting systems at the nanoscale.
 
+---
+
 ### Test002 – Dual-wall asymmetry
 
 - ![📈 plot](../results/test002_dual_wall_asymmetry_plot.png)
+
+---
 
 ### Test003 – Heat Drift with Exit
 
@@ -32,5 +39,7 @@ The inclusion of an asymmetric "exit" region at the top-right corner leads to a 
 
 👉 See [04_future_plans.md](./04_future_plans.md) for product applications and prototyping.
 
-[↑ Back to top](#)
+---
+
+[↑ Back to top](#)  
 [← Back to index](../index.md)
