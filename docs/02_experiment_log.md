@@ -35,9 +35,7 @@
 - **Goal**:  
   Demonstrate that asymmetry + boundary design can produce thermal biasing usable in tiny/smart homes.
 
-  ***
-
-### Test004 – Terrace Wall Drift (Passive Thermal Repulsion)
+## Test004 – Terrace Wall Drift (Passive Thermal Repulsion)
 
 - **Date**: June 19, 2025
 - **Type**: Digital simulation (from `vortex-box-test` project)
@@ -57,11 +55,9 @@
   - [Results summary](03_results.md#test004--terrace-wall-drift)
   - [Future plans](04_future_plans.md#smart-passive-wall-cooling)
 
-  ***
+## 🧪 Test005 – Flow Amplifier Chamber (with Logging)
 
-### 🧪 Test005 – Flow Amplifier Chamber (with Logging)
-
-- **Date**: July 2025
+- **Date**: July 4, 2025
 - **Goal**: Test directional particle drift induced by dual-wall asymmetry and a central funnel-type opening.
 - **Chamber size**: 40×20×10 units
 - **Exit geometry**: 4 units wide, 6 units tall, center-right
