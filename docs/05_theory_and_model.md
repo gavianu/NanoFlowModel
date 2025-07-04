@@ -1,5 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 # 05 – Theoretical Framework and Simulation Model
 
 ## 🎯 Purpose
