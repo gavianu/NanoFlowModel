@@ -1,0 +1,13 @@
+# _config.yml
+title: NanoFlowModel
+markdown: kramdown
+theme: null
+exclude:
+  - README.md
+  - LICENSE
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
