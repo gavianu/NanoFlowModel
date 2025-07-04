@@ -6,4 +6,4 @@ The idea is inspired by biological systems (intestines, blood vessels), and scie
 
 This project is also a philosophical and engineering exploration: can "design alone" act as an ordering mechanism for chaos?
 
-[← Back to index](../index.md)
+⬅️ [Back to index](../index.md)

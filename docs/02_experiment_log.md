@@ -53,8 +53,29 @@
   through spatial bias — without any external energy input.
 
 - **Results integrated in**:
+
   - [Results summary](03_results.md#test004--terrace-wall-drift)
   - [Future plans](04_future_plans.md#smart-passive-wall-cooling)
 
-[↑ Back to top](#)  
-[← Back to index](../index.md)
+  ***
+
+### 🧪 Test005 – Flow Amplifier Chamber (with Logging)
+
+- **Date**: July 2025
+- **Goal**: Test directional particle drift induced by dual-wall asymmetry and a central funnel-type opening.
+- **Chamber size**: 40×20×10 units
+- **Exit geometry**: 4 units wide, 6 units tall, center-right
+- **Particle count**: 100 (initial)
+- **Method**: VPython simulation + CSV logging (`test005_flow_amplifier_logged.py`)
+- **Outcome**: Directional accumulation and exit were confirmed. See results and plot.
+
+📎 Related files:
+
+📎 Related files:
+
+- [`heat_drift_exit_data.csv`](../results/test005/heat_drift_exit_data.csv)
+- [`test005_exit_plot.png`](../results/test005/test005_exit_plot.png)
+- [Simulation source](https://github.com/gavianu/vortex-box-test/blob/main/test005_flow_amplifier/test005_flow_amplifier_logged.py)
+
+↩️ [Back to top](#)  
+⬅️ [Back to index](../index.md)

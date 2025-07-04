@@ -60,5 +60,17 @@ _Observation_: The stronger rebound velocity from the terrace wall promotes a sh
 
 ---
 
-[↑ Back to top](#)  
-[← Back to index](../index.md)
+### 🔍 Test005 – Observations
+
+| Test ID | Name           | Description                     | Exit % (after 2000 steps) | Visual Output                                     |
+| ------- | -------------- | ------------------------------- | ------------------------- | ------------------------------------------------- |
+| 005     | Flow Amplifier | Chamber with directional funnel | ~36%                      | ![plot](../results/test005/test005_exit_plot.png) |
+
+- 100 particles were simulated over 2000 timesteps.
+- 36 particles exited through the funnel opening (36% efficiency).
+- Exits occurred gradually but showed mild clustering after ~500 steps, suggesting potential cumulative effects.
+
+---
+
+↩️ [Back to top](#)  
+⬅️ [Back to index](../index.md)

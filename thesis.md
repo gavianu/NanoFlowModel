@@ -64,5 +64,13 @@ See [papers.md](references/papers.md) for full citations and scientific backgrou
 - Conceptual poetry reflecting the origins of NanoFlow:  
   → ["Independent și liber (Natura)”](docs/poetry.md)
 
-[↑ Back to top](#)  
-[← Back to index](index.md)
+  #### Appendix B – Test005: Flow Amplifier Results
+
+- Data file: [heat_drift_exit_data.csv](./results/test005/heat_drift_exit_data.csv)
+- Plot:  
+  ![Test005 Exit Plot](./results/test005/test005_exit_plot.png)
+
+Result confirms measurable directional drift induced by passive geometric design.
+
+↩️ [Back to top](#)  
+⬅️ [Back to index](../index.md)
