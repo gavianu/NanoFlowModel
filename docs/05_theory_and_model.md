@@ -357,5 +357,5 @@ These ideas extend the Fokker–Planck framework into non-linear boundaries and 
 
 These phenomena do not violate thermodynamic equilibrium. Instead, they show how **non-equilibrium local conditions and geometry** may bias stochastic processes in ways that **can be harvested** for passive energy transfer or propulsion applications.
 
-[↑ Back to top](#)  
-[← Back to index](../index.md)
+↩️ [Back to top](#)  
+⬅️ [Back to index](../index.md)

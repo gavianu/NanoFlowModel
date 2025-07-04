@@ -88,5 +88,5 @@ Whether pursued in academic labs, tech incubators, or garage setups, the results
 
 ---
 
-[↑ Back to top](#)  
-[← Back to index](../index.md)
+↩️ [Back to top](#)  
+⬅️ [Back to index](../index.md)

@@ -51,4 +51,5 @@ It stands not just as a metaphor, but as a literary artifact of scientific imagi
 
 ---
 
-[← Back to index](../index.md)
+↩️ [Back to top](#)  
+⬅️ [Back to index](../index.md)

@@ -62,5 +62,5 @@ As the project evolves into product-oriented designs or field applications, furt
 - Simulation frameworks for multiphysics (e.g., LBM, CFD+Monte Carlo hybrid)
 - Energy harvesting at the nanoscale (e.g., thermoelectric or piezoelectric microdevices)
 
-[↑ Back to top](#)  
-[← Back to index](../index.md)
+↩️ [Back to top](#)  
+⬅️ [Back to index](../index.md)
