@@ -71,8 +71,6 @@
 
 📎 Related files:
 
-📎 Related files:
-
 - [`heat_drift_exit_data.csv`](../results/test005/heat_drift_exit_data.csv)
 - [`test005_exit_plot.png`](../results/test005/test005_exit_plot.png)
 - [Simulation source](https://github.com/gavianu/vortex-box-test/blob/main/test005_flow_amplifier/test005_flow_amplifier_logged.py)

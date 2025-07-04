@@ -27,6 +27,7 @@ Step-by-step digital simulations:
 - Test002 – Dual-Wall Asymmetry
 - Test003 – Heat Drift Geometry (Smart Cooling)
 - Test004 – Terrace Wall Drift (Passive Cooling)
+- Test005 – Flow Amplifier Chamber
 
 ### 📊 03 – [Results](./docs/03_results.md)
 
