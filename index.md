@@ -1,6 +1,6 @@
 ---
-title: NanoFlowModel Index
 layout: default
+title: NanoFlowModel Index
 ---
 
 # 🔬 NanoFlowModel — Scientific Research Hub

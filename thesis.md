@@ -1,3 +1,8 @@
+---
+layout: default
+title: NanoFlowModel Bachelor Thesis
+---
+
 # NanoFlowModel – Bachelor Thesis Draft
 
 **Author**: Octavian Știrbei  

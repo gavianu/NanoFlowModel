@@ -1,3 +1,8 @@
+---
+layout: default
+title: NanoFlowModel Links
+---
+
 # Internal and External Links
 
 ## 🔗 Related Repositories
