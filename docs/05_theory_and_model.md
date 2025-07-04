@@ -323,6 +323,36 @@ This model abstracts from the **microscopic interactions** between particles and
 
 Thus, even macroscopically passive materials — by their geometry and surface response — may influence **micro-scale particle behavior** in a way that accumulates into **observable drift or cooling**.
 
+## 🚪 Amplification Chambers and Flow Guidance
+
+In future experiments (e.g. Test005), we will introduce **amplifier chambers** — sequential compartments designed to increase particle movement using geometric bias alone.
+
+Each chamber acts as a **flow multiplier**, guiding particles toward a preferred direction through:
+
+- Alternating **reflective and absorbent surfaces**
+- Narrow passages that introduce **velocity asymmetry**
+- Entrances modeled as **inlets with passive fans or vents**
+
+These setups mimic **Venturi structures** and **Brownian ratchets**, where:
+
+- Particles entering randomly may **exit with higher directional momentum**
+- The chamber's layout substitutes for an energy gradient
+
+### Conceptual effect:
+
+```text
+[ Entry ] --> [ Trap Chamber ] --> [ Output Fan or Opening ]
+      |                                ↑
+   Brownian                          Amplified
+    Input                              Drift
+```
+
+### Theoretical implication:
+
+While each particle acts stochastically, the collective behavior over time can emerge as drift. By chaining such chambers, one may simulate directional transport — potentially scalable to macro systems (cooling, propulsion).
+
+These ideas extend the Fokker–Planck framework into non-linear boundaries and could be tested under conservation principles derived from the continuity equation.
+
 ## 📌 Note
 
 These phenomena do not violate thermodynamic equilibrium. Instead, they show how **non-equilibrium local conditions and geometry** may bias stochastic processes in ways that **can be harvested** for passive energy transfer or propulsion applications.
