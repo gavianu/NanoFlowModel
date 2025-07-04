@@ -307,5 +307,25 @@ Where:
 - Nano-mechanical surface modeling
 - Smart materials with selective energy reflection or absorption
 
+## 🔁 Geometric Confinement and Directed Drift
+
+In systems where Brownian motion occurs within geometrically constrained spaces, **asymmetrical boundaries** can introduce net directional bias even in the absence of an external force field. This phenomenon is often referred to as _entropic transport_ or _ratchet-like diffusion_, and it emerges from the **statistical imbalance** in the probability of particle re-emission depending on the wall geometry.
+
+In our simulation (Test003), we modeled a pseudo-thermal drift zone with an opening in the upper-right corner of the chamber. Despite uniform particle energy distribution, the **boundary conditions** and **geometry of the chamber** produce a net drift toward the exit. This reflects a simplified analog of Bernoulli-type flow or entropy-driven escape mechanisms.
+
+This effect aligns conceptually with studies of **Brownian motors** and **entropic barriers** in microfluidic devices, where geometry alone induces transport without violating thermodynamic laws.
+
+## 🧱 Wall Interactions in Macroscopic Contexts
+
+In Test004, a real-world context was imagined: a wall surface exposed to ambient motion (e.g. air particles) coated with a material that reflects energy elastically. Simulations modeled how elastic vs. absorptive wall segments influence local particle distribution.
+
+This model abstracts from the **microscopic interactions** between particles and surface atoms, and instead considers their **statistical effect** over time. In physical terms, these boundaries modify the **diffusive gradient** by enforcing **localized kinetic energy preservation or dissipation**.
+
+Thus, even macroscopically passive materials — by their geometry and surface response — may influence **micro-scale particle behavior** in a way that accumulates into **observable drift or cooling**.
+
+## 📌 Note
+
+These phenomena do not violate thermodynamic equilibrium. Instead, they show how **non-equilibrium local conditions and geometry** may bias stochastic processes in ways that **can be harvested** for passive energy transfer or propulsion applications.
+
 [↑ Back to top](#)  
 [← Back to index](../index.md)
