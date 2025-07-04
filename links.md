@@ -32,4 +32,4 @@ title: NanoFlowModel Links
 - [🎓 Bachelor Thesis Draft](thesis.md)
 
 ↩️ [Back to top](#)  
-⬅️ [Back to index](../index.md)
+⬅️ [Back to index](index.md)

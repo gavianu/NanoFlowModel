@@ -20,6 +20,19 @@ This document outlines the core physical principles behind the NanoFlowModel pro
 
 - **Non-equilibrium systems**: Only systems that are out of thermal or chemical equilibrium can produce net transport or perform work from asymmetrical geometry. Otherwise, the second law of thermodynamics prevents any directed motion or energy gain.
 
+## 🔁 Entropic Funnels and Directed Drift
+
+- **Directional confinement**: A structured chamber that includes a nozzle-like exit can create a net bias in particle motion, even in the presence of purely random Brownian dynamics. This is achieved through entropic filtering — particles are more likely to escape in the direction of the geometrical funnel.
+
+- **Flow amplifier behavior**: As observed in **Test005**, when Brownian particles interact with an asymmetrical chamber (dual walls: one reflective, one absorptive), and a strategically positioned exit, a measurable accumulation and evacuation through the funnel can be seen. This is due to the asymmetry combined with geometry-enhanced probability gradients.
+
+- **Related physical principles**:
+  - Bernoulli-style geometries
+  - Entropic bias and spatial filtering
+  - Non-equilibrium drift without external gradients
+
+This observation reinforces the central hypothesis of NanoFlowModel — that **passive geometric constraints** can transform stochastic behavior into **usable directional effects** in fluid or gas microenvironments.
+
 ## Structural Similarities: Fluid Flow and Electromagnetism
 
 Although **Maxwell’s equations** govern classical electromagnetism, their mathematical structure — involving divergence (∇·) and curl (∇×) operators — closely mirrors that of fluid dynamics (e.g., Navier–Stokes equations).

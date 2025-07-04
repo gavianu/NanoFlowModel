@@ -17,6 +17,7 @@ This section collects the key scientific concepts, research papers, and theoreti
 - **Entropic Transport in Confined Geometries**
 
   - Reguera, D., Schmid, G., Burada, P. S., Rubi, J. M., Reimann, P., & Hänggi, P. (2006). _Entropic transport: Kinetics, scaling, and control mechanisms_. Physical Review Letters.
+  - Burada, P. S., et al. (2009). _Diffusion in confined geometries_. Chemical Physics.
 
 - **Fokker–Planck Dynamics**
 
@@ -25,9 +26,10 @@ This section collects the key scientific concepts, research papers, and theoreti
 - **Bernoulli Effect and Flow Constriction**
 
   - Batchelor, G. K. (2000). _An Introduction to Fluid Dynamics._
-  - Applications of Venturi effect in microfluidics: Squires, T. M., & Quake, S. R. (2005). _Microfluidics: Fluid physics at the nanoliter scale._ Reviews of Modern Physics.
+  - Squires, T. M., & Quake, S. R. (2005). _Microfluidics: Fluid physics at the nanoliter scale._ Reviews of Modern Physics.
 
 - **Navier–Stokes Equations in Complex Geometries**
+
   - Landau, L. D., & Lifshitz, E. M. (1987). _Fluid Mechanics_ (Course of Theoretical Physics, Vol. 6).
   - Pope, S. B. (2000). _Turbulent Flows._
 
@@ -39,6 +41,7 @@ This section collects the key scientific concepts, research papers, and theoreti
   - Jackson, J. D. (1998). _Classical Electrodynamics._
 
 - **Structural Similarity Between Field Equations**
+
   - Feynman, R. P. (1963). _Lectures on Physics_, Vol. II, Mathematical methods used in both fluid mechanics and electromagnetism.
   - Thomson, W. (Lord Kelvin). Observations on analogies between electric and fluid flow lines.
 
@@ -51,6 +54,14 @@ The inspiration extends from:
 - **biological geometries** (e.g., intestines, vascular systems),
 - to **engineered flow channels** (e.g., Venturi tubes, fractal manifolds),
 - and into **nanoscale energy redirection** mechanisms inspired by both statistical physics and quantum coherence in confined systems.
+
+### Recent Extensions
+
+The most recent test cases (e.g., **Test005 – Flow Amplifier**) combine asymmetrical wall behavior with funnel-like exits, demonstrating that spatial confinement alone — without any external gradients — can produce statistical drift. This supports the potential for:
+
+- passive flow control via wall design and layout,
+- energy-free air guidance systems (e.g., smart home thermal exits),
+- and flow amplification with no mechanical parts.
 
 ---
 

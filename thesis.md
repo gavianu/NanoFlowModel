@@ -73,4 +73,4 @@ See [papers.md](references/papers.md) for full citations and scientific backgrou
 Result confirms measurable directional drift induced by passive geometric design.
 
 ↩️ [Back to top](#)  
-⬅️ [Back to index](../index.md)
+⬅️ [Back to index](index.md)
