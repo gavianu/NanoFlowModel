@@ -353,6 +353,96 @@ While each particle acts stochastically, the collective behavior over time can e
 
 These ideas extend the Fokker–Planck framework into non-linear boundaries and could be tested under conservation principles derived from the continuity equation.
 
+## 🔄 Test006: Multi-Chamber Cascade Amplification
+
+In **Test006**, we modeled a sequence of three horizontally aligned chambers:
+
+- `IN` chamber: absorbent walls and **two small elastic funnels** guide particles into `MID`.
+- `MID` chamber: **fully elastic** boundaries to amplify movement without loss.
+- `OUT` chamber: absorbent container to collect and quantify net flow.
+
+This configuration was designed to test whether a **cascade of passive, geometrically-biased structures** can amplify particle migration directionally, even from an initially **uniform distribution**.
+
+         ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+         │             │     │             │     │             │
+         │    IN       │ ==> │    MID      │ ==> │    OUT      │
+         │  Chamber    │     │  Chamber    │     │  Chamber    │
+         │             │     │             │     │             │
+         └────┬──┬─────┘     └──────┬──────┘     └─────────────┘
+              │  │                 │
+       Elastic Funnels      Elastic Funnel
+        (upper & lower)       (centered)
+
+### Observed Phenomenon
+
+- Starting from 1000 particles in each chamber, we observed **increased accumulation in the `OUT` zone** over time.
+- This suggests that elastic guidance with directional funnels can **bias Brownian motion** step-by-step — resembling a **microscale entropic engine**.
+
+### Theoretical Insight
+
+This effect leverages a concept akin to a **Brownian ratchet**, without violating the second law of thermodynamics:
+
+- Each elastic chamber preserves kinetic energy (high restitution).
+- Funnel geometry **breaks spatial symmetry**, introducing directional re-emission probability.
+- The system relies on **entropy gradients**, not external forces.
+
+### Key Concept: Entropic Rectification
+
+While the total energy remains statistically conserved, **configuration and confinement** generate **biased probability flux** — a form of _entropic rectification_.
+
+The results align with **non-equilibrium statistical mechanics**, where boundary-induced asymmetries yield macroscopic flow from microscopic noise.
+
+---
+
+## 🧠 Maxwell’s Demon and the Cascade Analogy
+
+James Clerk Maxwell imagined a demon that sorts fast and slow molecules, reducing entropy seemingly without work — a paradox for the second law.
+
+Our Test006 system, though passive, **mimics this concept geometrically**:
+
+- Elastic walls act as energy-preserving selectors.
+- Funnels act as one-way gates — promoting forward migration more than reverse.
+- The system doesn’t sort by speed, but **sorts by exit bias**, passively.
+
+Unlike the demon, however, this system **pays no information cost** — it's purely physical.
+
+---
+
+## 🧠 Landauer’s Principle and Geometric Processing
+
+Rolf Landauer resolved Maxwell’s paradox by showing that **erasing information** has an energy cost:
+
+> “Information is physical.”
+
+In our simulations, the **walls and geometry** play the role of **information processors** — but not through memory or logic.
+
+Instead, the **physical shape** encodes directional preference. No memory is stored or erased; hence, **no entropy is consumed** in the classic sense.
+
+Still, the **local entropy** increases — from ordered trajectories emerging via chaotic inputs.
+
+---
+
+## 📐 Thermodynamic Perspective
+
+The second law of thermodynamics remains valid:
+
+- The system creates **local order** (accumulation in `OUT`) at the cost of **increased global entropy** (energy is dispersed across time and space).
+- This is possible because the system is **not closed** — it receives thermal agitation from simulated Brownian motion.
+
+In this sense, **life-like behavior** emerges: structure channels randomness into function.
+
+---
+
+## 🧭 Conclusion
+
+Test006 demonstrates how **geometry alone can induce order** from disorder, aligning with theories of entropic transport, Brownian ratchets, and information thermodynamics.
+
+It bridges conceptual gaps between:
+
+- Pure physics (Langevin, Fokker–Planck)
+- Information theory (Landauer)
+- And biological emergence (Maxwellian sorting)
+
 ## 📌 Note
 
 These phenomena do not violate thermodynamic equilibrium. Instead, they show how **non-equilibrium local conditions and geometry** may bias stochastic processes in ways that **can be harvested** for passive energy transfer or propulsion applications.
