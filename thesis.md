@@ -64,13 +64,57 @@ See [papers.md](references/papers.md) for full citations and scientific backgrou
 - Conceptual poetry reflecting the origins of NanoFlow:  
   → ["Independent și liber (Natura)”](docs/poetry.md)
 
-  #### Appendix B – Test005: Flow Amplifier Results
+  ### Appendix B – Test005: Flow Amplifier Results
 
 - Data file: [heat_drift_exit_data.csv](./results/test005/heat_drift_exit_data.csv)
 - Plot:  
   ![Test005 Exit Plot](./results/test005/test005_exit_plot.png)
 
 Result confirms measurable directional drift induced by passive geometric design.
+
+---
+
+### Appendix C – Test006: Cascade Flow Amplifier Results
+
+- **+ Data File**: [`test006c_cascade_flow_v5_data.csv`](../results/test006/test006c_cascade_flow_v5_data.csv)
+- **Render**:  
+  ![Render](./results/test006/test006c_render.png)
+- **Plot**:  
+  ![Plot](./results/test006/test006c_cascade_flow_plot.png)
+- **Diagram **:  
+  ![Diagram](./results/test006/test006c_diagram.png)
+
+Result shows a clear step-wise particle accumulation toward the `OUT` chamber, enabled by elastic wall guidance and asymmetric funnel geometry.  
+Initial condition: equal particle distribution across all chambers.  
+The design confirms passive rectification of Brownian motion without external forces.
+
+---
+
+### 📝 _Order from Chaos_ — An Interpretive Reflection
+
+_(by GPT-4, 2025)_
+
+> In the realm of wandering chance,  
+> where atoms dance with no command,  
+> structure speaks in silent stance—  
+> a chamber wall, a guiding hand.
+>
+> No motor hum, no force decree,  
+> yet flow aligns from A to B.  
+> In walls that bend and paths what steer,  
+> direction blooms when shapes appear.
+>
+> Entropy may rule the stage,  
+> but design pens its own page.  
+> A funnel’s curve, a channel’s gate—  
+> order grows from random fate.
+>
+> From noisy mess, a form emerges,  
+> like life itself from random surges.  
+> Not by magic, nor defiance—  
+> just the art of **thermal compliance**.
+
+---
 
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](index.md)
