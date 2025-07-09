@@ -73,5 +73,10 @@ As the project evolves into product-oriented designs or field applications, furt
 - Simulation frameworks for multiphysics (e.g., LBM, CFD+Monte Carlo hybrid)
 - Energy harvesting at the nanoscale (e.g., thermoelectric or piezoelectric microdevices)
 
+## Philosophical and Conceptual Reflections
+
+- Blog Alacrity (2023). _Entropie, găuri negre și demoni._ [Link](https://blog.alacrity.education/entropie-gauri-negre-si-demoni/)
+- Leff, H.S. & Rex, A.F. (2014). _Maxwell’s Demon 2: Entropy, Classical and Quantum Information, Computing._
+
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](../index.md)

@@ -47,6 +47,14 @@ This mathematical similarity appears across:
 
 This deep structural connection explains why similar equations appear in apparently unrelated areas of physics. The NanoFlowModel project draws from this unity, applying geometric design principles in fluid-like systems to explore emergent order, motion, or flow.
 
+## Thermodynamic Paradoxes and Informational Order
+
+The NanoFlowModel aligns with reflections on entropy, as seen in modern interpretations of the **Second Law of Thermodynamics**. Concepts like **Maxwell’s Demon** and **Landauer’s Principle** reveal how geometric structures may encode passive information selection — a key idea behind our wall interactions and chamber designs.
+
+This resonates with the philosophical notion that **life itself is an entropy accelerator**, optimizing energy dissipation while maintaining local order. NanoFlowModel replicates this dynamic at microscale using purely structural bias — with no external energy input.
+
+Inspired reading: [Entropy, Black Holes and Demons – alacrity.education](https://blog.alacrity.education/entropie-gauri-negre-si-demoni/)
+
 ## Conclusion
 
 NanoFlowModel is grounded in real physical principles: randomness, entropy, conservation laws, and the geometry of flow. Rather than violating the laws of thermodynamics, it investigates how intelligent structure alone can act as a passive engine of organization in systems rich with thermal energy and fluctuation.
