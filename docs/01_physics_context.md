@@ -53,7 +53,7 @@ The NanoFlowModel aligns with reflections on entropy, as seen in modern interpre
 
 This resonates with the philosophical notion that **life itself is an entropy accelerator**, optimizing energy dissipation while maintaining local order. NanoFlowModel replicates this dynamic at microscale using purely structural bias — with no external energy input.
 
-Inspired reading: [Entropy, Black Holes and Demons – alacrity.education](https://blog.alacrity.education/entropie-gauri-negre-si-demoni/)
+Inspired reading: [Entropy, Black Holes and Demons – alacrity.education](https://blog.alacrity.ro/entropie-gauri-negre-si-demoni/)
 
 ## Conclusion
 
