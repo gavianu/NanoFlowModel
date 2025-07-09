@@ -75,7 +75,7 @@ As the project evolves into product-oriented designs or field applications, furt
 
 ## Philosophical and Conceptual Reflections
 
-- Blog Alacrity (2023). _Entropie, găuri negre și demoni._ [Link](https://blog.alacrity.education/entropie-gauri-negre-si-demoni/)
+- Sima Bianca-Ioana, Blog Alacrity (2025). _Entropie, găuri negre și demoni._ [Link](https://blog.alacrity.education/entropie-gauri-negre-si-demoni/)
 - Leff, H.S. & Rex, A.F. (2014). _Maxwell’s Demon 2: Entropy, Classical and Quantum Information, Computing._
 
 ↩️ [Back to top](#)  
