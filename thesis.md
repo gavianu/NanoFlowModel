@@ -76,7 +76,7 @@ Result confirms measurable directional drift induced by passive geometric design
 
 ### Appendix C – Test006: Cascade Flow Amplifier Results
 
-- **+ Data File**: [`test006c_cascade_flow_v5_data.csv`](../results/test006/test006c_cascade_flow_v5_data.csv)
+- **+ Data File**: [`test006c_cascade_flow_v5_data.csv`](./results/test006/test006c_cascade_flow_v5_data.csv)
 - **Render**:  
   ![Render](./results/test006/test006c_render.png)
 - **Plot**:  
