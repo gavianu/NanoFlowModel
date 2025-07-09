@@ -28,6 +28,7 @@ Step-by-step digital simulations:
 - Test003 – Heat Drift Geometry (Smart Cooling)
 - Test004 – Terrace Wall Drift (Passive Cooling)
 - Test005 – Flow Amplifier Chamber
+- Test006 – Cascade Flow Amplifier (Multi-Chamber Elastic Amplification)
 
 ### 📊 03 – [Results](./docs/03_results.md)
 

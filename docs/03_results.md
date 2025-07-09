@@ -1,11 +1,13 @@
 # Experimental Results Summary
 
-| Test # | Description         | Net Flow     | X̄ Position | Notes                                   |
-| ------ | ------------------- | ------------ | ---------- | --------------------------------------- |
-| 001    | Uniform cube        | None         | ~0.0000 m  | Baseline for Brownian chaos             |
-| 002    | Dual-wall asymmetry | Rightward    | ~+0.0300 m | Passive entropic accumulation           |
-| 003    | Heat Drift Geometry | Strong drift | ~+0.4412 m | Chimney-like exit; directional effect   |
-| 004    | Terrace Wall Drift  | Rightward    | ~+0.42 m   | Simulated heat rejection via reflection |
+| Test # | Description                     | Net Flow       | X̄ Position                       | Notes                                             |
+| ------ | ------------------------------- | -------------- | -------------------------------- | ------------------------------------------------- |
+| 001    | Uniform cube                    | None           | ~0.0000 m                        | Baseline for Brownian chaos                       |
+| 002    | Dual-wall asymmetry             | Rightward      | ~+0.0300 m                       | Passive entropic accumulation                     |
+| 003    | Heat Drift Geometry             | Strong drift   | ~+0.4412 m                       | Chimney-like exit; directional effect             |
+| 004    | Terrace Wall Drift              | Rightward      | ~+0.42 m                         | Simulated heat rejection via reflection           |
+| 005    | Chamber with directional funnel | Flow Amplifier | ~36% (Exit % (after 2000 steps)) | ![plot](../results/test005/test005_exit_plot.png) |
+| 006    | Cascade Amplifier               | Rightward      | ~+0.24 m                         | Multi-stage chambers w/ elastic funnels           |
 
 ---
 
@@ -62,13 +64,30 @@ _Observation_: The stronger rebound velocity from the terrace wall promotes a sh
 
 ### 🔍 Test005 – Observations
 
-| Test ID | Name           | Description                     | Exit % (after 2000 steps) | Visual Output                                     |
-| ------- | -------------- | ------------------------------- | ------------------------- | ------------------------------------------------- |
-| 005     | Flow Amplifier | Chamber with directional funnel | ~36%                      | ![plot](../results/test005/test005_exit_plot.png) |
-
 - 100 particles were simulated over 2000 timesteps.
 - 36 particles exited through the funnel opening (36% efficiency).
 - Exits occurred gradually but showed mild clustering after ~500 steps, suggesting potential cumulative effects.
+
+---
+
+### 🧪 Test006 – Cascade Flow Amplifier
+
+- **Setup**: Three sequential chambers with elastic channels guiding particle flow.
+- **Initial condition**: 1000 particles per chamber.
+- **Run length**: 20,000 timesteps.
+- **Observation**: Gradual but consistent drift of particles toward final chamber.
+
+📊 Output:
+
+- [CSV log](../results/test006/test006c_cascade_flow_v5_data.csv)
+- ![Render](../results/test006/test006c_render.png)
+- ![Plot](../results/test006/test006c_cascade_flow_plot.png)
+
+📈 Summary:
+
+Particles initially distributed equally across all chambers show a **clear net migration** from `IN` → `MID` → `OUT`. This confirms that **asymmetric elastic design** with directional funnels enables **passive amplification** of random motion toward a targeted region.
+
+📌 This supports the core hypothesis of the project: structure alone (without external force) can create directional bias in Brownian environments.
 
 ---
 

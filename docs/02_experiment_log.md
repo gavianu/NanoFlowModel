@@ -71,5 +71,29 @@
 - [`test005_exit_plot.png`](../results/test005/test005_exit_plot.png)
 - [Simulation source](https://github.com/gavianu/vortex-box-test/blob/main/test005_flow_amplifier/test005_flow_amplifier_logged.py)
 
+---
+
+## 🔹 Test006 – Cascade Flow Amplifier
+
+- **Date**: July 9, 2025
+- **Configuration**: Three chambers aligned horizontally:
+  - `IN` chamber with **two small elastic funnels** directing flow toward `MID`.
+  - `MID` chamber with **fully elastic walls** and a single funnel leading to `OUT`.
+  - `OUT` chamber with absorptive walls (acts as the terminal collector).
+- **Particles**: 1000 per chamber (initial equilibrium distribution).
+- **Mechanism**: Funnels and elastic walls promote **biased migration** from left to right.
+
+**Objective**:  
+To test whether multi-chamber elastic guidance amplifies net particle drift and supports step-wise accumulation in the final `OUT` chamber.
+
+**Files**:
+
+- Simulation: [`test006c_cascade_flow_v5.py`](https://github.com/gavianu/vortex-box-test/blob/main/test006_cascade_amplifier/test006c_cascade_flow_v5.py)
+- Data CSV: [`test006c_cascade_flow_v5_data.csv`](../results/test006/test006c_cascade_flow_v5_data.csv)
+- Screenshot: ![render](../results/test006/test006c_render.png)
+- Plot: ![plot](../results/test006/test006c_cascade_flow_plot.png)
+
+---
+
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](../index.md)
