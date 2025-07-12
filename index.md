@@ -29,6 +29,7 @@ Step-by-step digital simulations:
 - Test004 – Terrace Wall Drift (Passive Cooling)
 - Test005 – Flow Amplifier Chamber
 - Test006 – Cascade Flow Amplifier (Multi-Chamber Elastic Amplification)
+- Test007 – Adaptive Geometry Flow (Dynamic Chamber Modulation)
 
 ### 📊 03 – [Results](./docs/03_results.md)
 
