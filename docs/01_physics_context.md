@@ -39,6 +39,16 @@ In classical statistical mechanics, Brownian motion is inherently random and sym
 
 Reflective surfaces can redirect motion; absorbent boundaries can reduce kinetic energy; and converging or diverging geometries can influence particle density and drift direction. These mechanisms are central to rectification theories (e.g., Brownian ratchets) and form the conceptual foundation of the NanoFlowModel, where directional flow is induced solely via structural design.
 
+---
+
+### Revisiting Entropy Near Absolute Zero: A New Thermodynamic Foundation
+
+Recent theoretical work by Prof. José María Martín-Olalla (University of Seville, 2025) has re-established a rigorous connection between the Nernst theorem and the second law of thermodynamics. For over a century, the theorem—stating that entropy exchanges tend to zero as temperature approaches absolute zero—was treated as an independent postulate, decoupled from the second law, notably by Einstein himself.
+
+However, Martín-Olalla's new formalism demonstrates that the theorem is in fact a _direct consequence_ of the second principle, provided one adopts the notion of a hypothetical (virtual) engine that performs no work but is essential for the thermodynamic framework. This engine is purely formal—it doesn't violate the second law, yet allows entropy-based reasoning even in unphysical limits.
+
+This development validates the idea that **entropy distribution and motion constraints** are intimately tied to the system's geometry and theoretical limits. It provides a formal backdrop to studies like ours, where **Brownian motion is geometrically constrained** to induce net flow. Our structural designs echo the logic of Martín-Olalla’s approach: no energy is added to the system, yet directional behavior emerges from **entropy management within bounded, inhomogeneous spaces**.
+
 ## Structural Similarities: Fluid Flow and Electromagnetism
 
 Although **Maxwell’s equations** govern classical electromagnetism, their mathematical structure — involving divergence (∇·) and curl (∇×) operators — closely mirrors that of fluid dynamics (e.g., Navier–Stokes equations).
