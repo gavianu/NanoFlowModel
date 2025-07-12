@@ -14,6 +14,15 @@ This section collects the key scientific concepts, research papers, and theoreti
   - Feynman, R. P. (1963). _The Feynman Lectures on Physics_, Vol. I, Section 46.
   - Parrondo, J. M. R., Harmer, G. P., & Abbott, D. (2000). _New paradoxical games based on Brownian ratchets._ Physics Review Letters.
 
+- **Third Law of Thermodynamics and Nernst Theorem**
+
+  - Nernst, W. (1905). _Experimental and theoretical foundation of thermochemistry._ Nobel Lecture.
+  - Martín-Olalla, J. M. (2025). _Proof of the Nernst Theorem_. The European Physical Journal Plus. DOI: [10.1140/epjp/s13360-025-06503-w](https://doi.org/10.1140/epjp/s13360-025-06503-w)
+
+  Recent work by Martín-Olalla (2025) resolves the long-standing debate between Nernst and Einstein over the logical placement of the Nernst theorem within thermodynamic theory. His rigorous proof demonstrates that the theorem is not an independent postulate but rather a consequence of the second law itself, via a virtual-engine framework that does not violate entropy constraints.
+
+  This clarification reinforces the theoretical foundation behind entropy cancellation at absolute zero and supports the NanoFlowModel’s core hypothesis: that **directional behavior can emerge purely from boundary geometry and thermodynamic structure**, even as entropy remains globally conserved.
+
 - **Entropic Transport in Confined Geometries**
 
   - Reguera, D., Schmid, G., Burada, P. S., Rubi, J. M., Reimann, P., & Hänggi, P. (2006). _Entropic transport: Kinetics, scaling, and control mechanisms_. Physical Review Letters.
