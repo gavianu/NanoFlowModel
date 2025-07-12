@@ -449,6 +449,24 @@ This section summarizes the foundational thermodynamic laws relevant to the Nano
 
 ---
 
+### 🔹 First Law of Thermodynamics
+
+The first law of thermodynamics states that energy is conserved in any closed system:
+
+$$
+\Delta U = Q - W
+$$
+
+In NanoFlowModel, this principle is implicitly respected by the simulation structure:
+
+- Elastic walls preserve the kinetic energy of particles upon reflection.
+- Absorbent walls simulate partial loss of kinetic energy (via speed damping), modeling energy dissipation into the system.
+- The absence of external energy input means all dynamics emerge from internal redistribution of motion.
+
+Thus, **energy is neither created nor destroyed**, but redistributed via **passive interactions**. This makes the model physically consistent with the first law, even though energy is not tracked explicitly.
+
+---
+
 ### 🔹 Second Law of Thermodynamics
 
 The classical form:
