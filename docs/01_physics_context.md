@@ -33,6 +33,12 @@ This document outlines the core physical principles behind the NanoFlowModel pro
 
 This observation reinforces the central hypothesis of NanoFlowModel — that **passive geometric constraints** can transform stochastic behavior into **usable directional effects** in fluid or gas microenvironments.
 
+### 🧩 Geometric Influence on Brownian Motion
+
+In classical statistical mechanics, Brownian motion is inherently random and symmetric in all directions within a homogeneous environment. However, when confined to a bounded geometry, particularly one featuring asymmetric or inhomogeneous boundaries, this randomness can be geometrically modulated.
+
+Reflective surfaces can redirect motion; absorbent boundaries can reduce kinetic energy; and converging or diverging geometries can influence particle density and drift direction. These mechanisms are central to rectification theories (e.g., Brownian ratchets) and form the conceptual foundation of the NanoFlowModel, where directional flow is induced solely via structural design.
+
 ## Structural Similarities: Fluid Flow and Electromagnetism
 
 Although **Maxwell’s equations** govern classical electromagnetism, their mathematical structure — involving divergence (∇·) and curl (∇×) operators — closely mirrors that of fluid dynamics (e.g., Navier–Stokes equations).
