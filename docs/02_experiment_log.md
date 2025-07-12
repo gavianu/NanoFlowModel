@@ -95,5 +95,45 @@ To test whether multi-chamber elastic guidance amplifies net particle drift and 
 
 ---
 
+## 🔹 Test007 – Passive Amplifier Zone
+
+- **Date**: July 10–12, 2025
+- **Goal**: Demonstrate net directional Brownian motion using purely passive geometries with no logical gates, valves, or external bias.
+- **Setup Summary**:
+
+  - `IN` chamber: elastic (acceleration 1.2×).
+  - `MID` zone: tunnel made from chained cylinders with varying radius and surface type.
+  - Tunnels include:
+    - **tubIN**: slightly resistive (0.85×)
+    - **cylTunnel3 → cylTunnel1**: vary from absorbent to elastic across models.
+    - **tubOUT**: strong elastic acceleration (1.5×).
+  - `OUT` chamber: strong deceleration (0.55×).
+
+- **Key Variants**:
+
+  - `Model 1–9`: progressive tuning of funnel shape and material.
+  - `Model 10`: full absorbing tunnel sequence.
+  - `Model 11`: **all tunnels elastic** – _best net flow observed_.
+  - `Model 12`: elastic sequence with one absorbing tunnel to contrast.
+
+- **Comparison Experiments**:
+  - `symmetric_flow`: symmetric setup → no net movement.
+  - `passive_cascade` (Test006): logical valve-like cascade, less efficient than Model 11.
+
+📸 Visual References:
+
+| Configuration Type   | Screenshot                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------- |
+| Symmetric (no flow)  | ![Symmetric](../results/test007/test007_amplifier_zone_model_symmetric_flow.png)                  |
+| Passive Amplifier 11 | ![Amplifier](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification.png) |
+
+📁 Files:
+
+- CSVs: `test007_amplifier_zone_model_[1–12].csv`
+- Source: `vortex-box-test/test007_amplifier_zone/`
+- Graphs: See `03_results.md` for comparative plots
+
+---
+
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](../index.md)
