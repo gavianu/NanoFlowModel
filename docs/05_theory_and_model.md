@@ -392,6 +392,16 @@ While the total energy remains statistically conserved, **configuration and conf
 
 The results align with **non-equilibrium statistical mechanics**, where boundary-induced asymmetries yield macroscopic flow from microscopic noise.
 
+### 🧭 Conclusion
+
+Test006 demonstrates how **geometry alone can induce order** from disorder, aligning with theories of entropic transport, Brownian ratchets, and information thermodynamics.
+
+It bridges conceptual gaps between:
+
+- Pure physics (Langevin, Fokker–Planck)
+- Information theory (Landauer)
+- And biological emergence (Maxwellian sorting)
+
 ---
 
 ## 🧠 Maxwell’s Demon and the Cascade Analogy
@@ -517,18 +527,6 @@ Our system operates far from \( T = 0 \), but this debate informs our philosophi
 - Rectification of motion is possible **without external work** input, relying purely on **microscopic structural asymmetries**.
 
 The NanoFlowModel adheres strictly to the second law. Local decreases in entropy (e.g., accumulation in one chamber) are permitted due to heat dissipation and asymmetric kinetic filtering across boundaries.
-
----
-
-### 🧭 Conclusion
-
-Test006 demonstrates how **geometry alone can induce order** from disorder, aligning with theories of entropic transport, Brownian ratchets, and information thermodynamics.
-
-It bridges conceptual gaps between:
-
-- Pure physics (Langevin, Fokker–Planck)
-- Information theory (Landauer)
-- And biological emergence (Maxwellian sorting)
 
 ---
 
