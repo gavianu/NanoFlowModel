@@ -520,7 +520,7 @@ The NanoFlowModel adheres strictly to the second law. Local decreases in entropy
 
 ---
 
-## 🧭 Conclusion
+### 🧭 Conclusion
 
 Test006 demonstrates how **geometry alone can induce order** from disorder, aligning with theories of entropic transport, Brownian ratchets, and information thermodynamics.
 
@@ -529,6 +529,86 @@ It bridges conceptual gaps between:
 - Pure physics (Langevin, Fokker–Planck)
 - Information theory (Landauer)
 - And biological emergence (Maxwellian sorting)
+
+---
+
+## 🧮 Complementary Theoretical Considerations
+
+To strengthen the analytical foundation of NanoFlowModel and connect our experiments with broader thermodynamic reasoning, we include the following mathematical and conceptual clarifications.
+
+---
+
+### 🔹 Local Entropy Flux and Particle Density
+
+In confined domains, entropy can be treated as a **local field variable**, dependent on both density and flow speed. This leads to an expression for **local entropy production** in a moving fluid:
+
+$$
+\frac{dS}{dt} = \int_V \left( \frac{\vec{J} \cdot \nabla T^{-1}}{T} + \sigma \right) dV
+$$
+
+Where:
+
+- \( \vec{J} \) is the local energy or mass flux
+- \( T \) is the temperature
+- \( \sigma \) is entropy generated internally (e.g., from dissipation)
+
+Even in systems without thermal gradients, **geometrically induced particle flux** can serve as a proxy for entropy redistribution.
+
+---
+
+### 🔹 Net Particle Flow in Confined Geometries
+
+To formalize directional flow, we introduce the **net flux** \( \Phi \) of particles across a cross-section \( A \):
+
+$$
+\Phi = \int_A \rho(\vec{r}, t) \cdot \vec{v}(\vec{r}, t) \cdot d\vec{A}
+$$
+
+In symmetric systems, this integral evaluates to zero on average. However, if the **geometry biases particle trajectories**, the **average flux becomes non-zero**, even without an external force.
+
+---
+
+### 🔹 Discrete Time Approximation of Transport
+
+Our simulations work in discrete time and space. We can estimate the net number of particles transferred between zones over a time interval \( \Delta t \) using:
+
+$$
+\Delta N = \sum_{i=1}^{N} \left[ \theta(\vec{r}_i(t + \Delta t)) - \theta(\vec{r}_i(t)) \right]
+$$
+
+Where:
+
+- \( \theta(\vec{r}) \) is an indicator function of the target zone (1 inside, 0 outside)
+- \( \vec{r}\_i(t) \) is the position of particle \( i \) at time \( t \)
+
+This formulation helps **quantify drift** without requiring continuous differential modeling.
+
+---
+
+### 🔹 Realizability vs. Simulation Idealizations
+
+While many models in NanoFlowModel are **purely computational**, they still encode physically plausible interactions:
+
+- **Elastic acceleration** (modeled via velocity scaling) mimics hard wall reflection
+- **Absorbent boundaries** simulate energy loss or adhesion
+- **Geometric filtering** reproduces selective transport seen in nanochannels or porous membranes
+
+These approximations make our platform suitable for **conceptual prototyping**, even if fine-tuning is needed for real materials.
+
+---
+
+### 🔹 Empirical Findings from Amplification Experiments (Test007)
+
+Without detailing individual setups, we extract several **general principles** from the Test007 amplifier zone experiments:
+
+- Purely **geometric asymmetries** (funnel orientation, tunnel radius) can bias particle flow
+- **Elastic walls** lead to stronger transfer than **logical gates** or switches
+- Maximum particle flux occurs when **entry zones accelerate** motion and **exits absorb** energy
+- Passive amplification **does not violate entropy laws**; it shifts the entropy distribution
+
+These results reinforce the idea that **information-less systems** can still produce structured output, grounded in the principles of **entropic drift** and **non-equilibrium statistical mechanics**.
+
+---
 
 ## 📌 Note
 
