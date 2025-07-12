@@ -433,6 +433,93 @@ In this sense, **life-like behavior** emerges: structure channels randomness int
 
 ---
 
+## ⚖ Thermodynamic Principles and Mathematical Formulations
+
+This section summarizes the foundational thermodynamic laws relevant to the NanoFlowModel. These principles guide the theoretical limits of entropy manipulation and energy rectification in microscopic systems.
+
+---
+
+### 🔹 Second Law of Thermodynamics
+
+The classical form:
+
+> _Entropy of an isolated system never decreases._
+
+In differential form:
+
+$$
+\frac{dS}{dt} \geq 0
+$$
+
+Where:
+
+- \( S \): entropy
+- \( t \): time
+
+For reversible processes:
+
+$$
+dS = \frac{\delta Q}{T}
+$$
+
+Where \( \delta Q \) is the infinitesimal heat added to the system and \( T \) is the absolute temperature.
+
+In NanoFlowModel, directional Brownian motion is **not a violation** of this law, because entropy increases due to **energy dissipation in absorbing walls**, even as motion becomes rectified geometrically.
+
+---
+
+### 🔹 Third Law of Thermodynamics (Nernst's Theorem)
+
+**Original statement by Walther Nernst (1905):**
+
+> _As temperature approaches absolute zero, the entropy change of any isothermal process tends to zero._
+
+Mathematically:
+
+$$
+\lim_{T \to 0} \Delta S = 0
+$$
+
+Or in integral form for a system cooling from \( T_1 \to 0 \):
+
+$$
+S(T) = \int_{T_1}^{0} \frac{C_p}{T} dT \to 0 \quad \text{as} \quad T \to 0
+$$
+
+Where \( C_p \) is the heat capacity at constant pressure.
+
+This leads to a **universal constant entropy** at 0 Kelvin:
+
+$$
+\lim_{T \to 0} S = S_0
+$$
+
+---
+
+### 🔹 Einstein vs. Martín-Olalla Interpretation
+
+- **Einstein's View (1912)**:  
+  The Nernst theorem should be decoupled from the second law. Since no engine can operate at \( T = 0 \), it is not part of the practical thermodynamic framework. Hence, he proposed treating Nernst’s theorem as a **separate third law**.
+
+- **Martín-Olalla's View (2025)**:  
+  Recent formal proof (EPJ Plus, 2025) shows that Nernst’s theorem is **not independent**, but a **direct consequence of the second law**, when including _virtual engines_ in the entropy formalism:
+  > "Even if no engine operates at absolute zero, the logic of the second law implies zero entropy change at \( T = 0 \)."
+
+This resolves the 120-year debate by integrating the theorem _as a limit case_ of existing thermodynamic laws.
+
+---
+
+### 🔹 Relevance to NanoFlowModel
+
+Our system operates far from \( T = 0 \), but this debate informs our philosophical foundation:
+
+- Even **passive geometries** can influence **entropy distribution**.
+- Rectification of motion is possible **without external work** input, relying purely on **microscopic structural asymmetries**.
+
+The NanoFlowModel adheres strictly to the second law. Local decreases in entropy (e.g., accumulation in one chamber) are permitted due to heat dissipation and asymmetric kinetic filtering across boundaries.
+
+---
+
 ## 🧭 Conclusion
 
 Test006 demonstrates how **geometry alone can induce order** from disorder, aligning with theories of entropic transport, Brownian ratchets, and information thermodynamics.
