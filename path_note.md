@@ -77,3 +77,25 @@
 | 010 | storage    | Simulation of energy buildup for load |
 
 ---
+
+# 📎 Prompt de reluare a lucrului cu modelul NanoFlow
+
+Continuăm analiza proiectului „NanoFlow” – un model de simulare pasivă a mișcării browniene direcționale, fără supape, fără porți logice sau bias extern. Am efectuat simulări VPython cu geometrie în buclă („loop tube”), accelerări și coliziuni elastice, cu măsurarea zonelor tranzitate și graficarea fluxurilor. Am testat 3 variante: normal, absorbant și complet elastic (cea mai eficientă).
+
+Rezultatele experimentelor au fost salvate în fișiere `.csv` și `png`. Avem scripturi de analiză cu heatmapuri, fluxuri de tranziție și evoluția în timp. Scopul e să demonstrăm posibilitatea unui flux net din „IN” → „OUT” printr-o geometrie pasivă.
+
+Vreau să continuăm cu:
+
+- analize suplimentare,
+- extinderea teoriei,
+- pregătirea pentru integrare în lucrare (markdown patches).
+
+Ține cont că în experimentul final au fost:
+
+- 800 particule în IN
+- 800 în OUT
+- 800 în tunel
+- 1600 în loop
+  rulate timp de 10.000 de pași.
+
+Spune-mi dacă ai nevoie de fișierele CSV și imagine pentru analiză.
