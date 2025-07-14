@@ -30,6 +30,7 @@ Step-by-step digital simulations:
 - Test005 – Flow Amplifier Chamber
 - Test006 – Cascade Flow Amplifier (Multi-Chamber Elastic Amplification)
 - Test007 – Adaptive Geometry Flow (Dynamic Chamber Modulation)
+- Test008 - Loop Flow Amplifier
 
 ### 📊 03 – [Results](./docs/03_results.md)
 
@@ -61,4 +62,4 @@ System artifacts (e.g. `.DS_Store`) and local configuration files are excluded v
 
 ---
 
-_Last updated: July 12, 2025_
+_Last updated: July 14, 2025_

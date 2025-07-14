@@ -135,5 +135,50 @@ To test whether multi-chamber elastic guidance amplifies net particle drift and 
 
 ---
 
+## Test008: Loop Flow Amplifier
+
+- **Date**: July 12–14, 2025
+- **Goal**: Demonstrate net directional Brownian motion using purely passive geometries with no logical gates, valves, or external bias.
+- **Setup Summary**:
+
+  - `IN` chamber: elastic (acceleration 1.2×)
+  - `MID` zone: tunnel made from chained cylinders with varying radius and surface type
+  - Tunnels:
+    - `tube`: slightly resistive (0.85×)
+    - `funnel3 → funnel1`: variable geometry, tuned in different models
+    - `funnel0`: connector to output
+    - `out_tube`: strong elastic acceleration (1.5×)
+  - `OUT` chamber: strong deceleration (0.55×)
+  - Loop path (`loop_tube`, `in_loop_tube`, `out_loop_tube`) allows feedback recycling of particles back into the system.
+
+- **Variants Tested**:
+
+  - **Model 1**: neutral loop (no amplification)
+  - **Model 2**: strong elastic loop (amplified flow observed)
+  - **Model 3**: strong absorbing loop (flow dampened)
+
+- **Result**:
+  - Model 2 yielded the **strongest OUT throughput**, confirming that loop elasticity supports directional bias.
+  - The system exhibits **fluid-like particle flow**, with measurable zone transitions and repeatable current formation.
+
+![Loop Amplifier](../results/test008/test008_loop_flow_model_absorbing_passive_amplification.png)
+
+A large-scale model simulating a closed-loop passive structure using only geometrical constraints and elastic/absorbing walls. Designed to test whether directional Brownian motion can be amplified in a loop.
+
+📂 [See results](03_results.md#test008-loop-flow-amplifier--results)  
+📈 [Transition heatmap](../results/test008/zone_transition_heatmap.png)  
+📈 [Flow graph](../results/test008/transition_graph.png)  
+📈 [Zone evolution](results/zone_counts_over_time.png)
+
+➡️ The experiment demonstrates that **net flow from IN to OUT is possible**, with amplification due to **loop-tube recycling** and **elastic acceleration** through the central funnel.
+
+**Resources:**
+
+- [zone_transitions.csv](../results/test008/zone_transitions.csv)
+- [test008_loop_flow_model_absorbing_passive_amplification2.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification2.csv)
+- [zone_transitions_summary.csv](../results/test008/zone_transition_summary.csv)
+
+---
+
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](../index.md)

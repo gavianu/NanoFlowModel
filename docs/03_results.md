@@ -165,5 +165,47 @@ Step,IN,MID,OUT
 
 ---
 
+### Test008: Loop Flow Amplifier – Results
+
+**Flow Observations:**
+
+- Particle traces and transition graphs confirm sustained directional flow from **IN → tube → funnels → out_tube → OUT**.
+- Additional flux was recorded in the **loop_tube**, supporting recirculation and energy buildup.
+- Transitions through funnel3 and funnel2 were the most frequent, serving as the "core" of the transition corridor.
+- **High flow from IN → tube → funnels → OUT** confirmed via transition graph and time-series.
+- **Particles returning via loop (loop_tube → in_loop_tube)** enable passive recycling.
+- **Elastic loop (Model 2)** outperforms both absorbing and neutral variants in OUT yield.
+- Transition graphs reveal non-uniform path usage – highest particle flow occurs in `funnel2`, `funnel1`, and `out_tube`.
+
+**Highlights:**
+
+- Despite symmetric transition counts between zones (see below), particle counts in `test008_loop_flow_model_absorbing_passive_amplification2.csv` show clear accumulation in the OUT and LOOP zones.
+- Velocity amplification in loop zones increased recirculation and stabilized forward transport.
+- The experiment shows that loop-based flow without active pumping can generate measurable, directed current.
+
+**Key Data Files:**
+
+- 📄 [zone_transitions.csv](../results/test008/zone_transitions.csv)
+- 📄 [test008_loop_flow_model_absorbing_passive_amplification1.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification1.csv)
+- 📄 [test008_loop_flow_model_absorbing_passive_amplification2.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification2.csv)
+- 📄 [test008_loop_flow_model_absorbing_passive_amplification3.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification3.csv)
+- 📈 [Transition heatmap](../results/test008/zone_transition_heatmap.png)
+- 📈 [Flow graph](../results/test008/transition_graph.png)
+- 📈 [Zone evolution](results/zone_counts_over_time.png)
+
+**Graphs:**
+
+- ![](../results/test008/transition_percentages_heatmap.png)
+- ![](../results/test008/transition_graph.png)
+- ![](../results/test008/zone_counts_over_time.png)
+- ![](../results/test008/zone_transition_heatmap.png)
+- ![](../results/test008/zone_occupancy_heatmap.png)
+
+**Conclusion:**
+
+The results support the hypothesis that **geometry and passive elastic interaction alone** can maintain a directional particle current. The **loop_tube acts as an amplifier**, boosting local velocity and sustaining flow through IN → OUT. These insights can inform nanoscale energy harvesting or signal routing in fluid-based systems.
+
+---
+
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](../index.md)
