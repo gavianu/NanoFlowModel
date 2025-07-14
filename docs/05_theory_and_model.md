@@ -654,6 +654,27 @@ Thus, **Loop Flow** is a physical analog of a ratchet system but realized **with
 - Elastic collisions
 - Structured geometry
 
+### Can NanoFlow fail by the same criteria as a Brownian ratchet?
+
+The short answer is: **no**, and here's why.
+
+The classic Brownian ratchet fails under equilibrium conditions due to the **fluctuation-dissipation theorem** and the **second law of thermodynamics**. When the entire system is at a uniform temperature, random motion in both the pawl and paddle leads to no net movement. Any apparent rectification is neutralized over time by symmetric backward slips caused by the pawl's own thermal agitation. Thus, **no useful work** can be extracted from symmetric thermal noise alone in an equilibrium environment.
+
+**NanoFlow**, by contrast, is not reliant on rectifying microscopic thermal noise. Instead, it employs **geometric confinement and material asymmetry** to influence **macroscopic Brownian trajectories**. The design leverages:
+
+- **Elastic vs. absorbent surfaces** to control particle acceleration and energy retention.
+- **Asymmetric tunnel sequences** that guide net flow via biased transition probabilities.
+- **Elastic collisions in tuned geometries** that create conditions of statistical drift, even under unbiased initial conditions.
+
+Critically, NanoFlow does not violate thermodynamics because:
+
+- It does not claim energy extraction from equilibrium.
+- It introduces **nonequilibrium conditions via passive geometry**, which is not prohibited by thermodynamic laws.
+
+Thus, unlike the ratchet which relies on mechanical constraints failing under thermal agitation, **NanoFlow exploits passive constraints to amplify diffusion**, not to rectify microscopic randomness into work.
+
+This makes NanoFlow more closely related to **Brownian motors** or **diffusion filters**, but distinct by relying **only on passive geometry and surface interaction**, with no need for external bias, temperature gradients, or feedback.
+
 ---
 
 ## 📌 Note

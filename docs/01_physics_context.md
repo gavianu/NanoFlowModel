@@ -71,6 +71,28 @@ This resonates with the philosophical notion that **life itself is an entropy ac
 
 Inspired reading: [Entropy, Black Holes and Demons – alacrity.education](https://blog.alacrity.ro/entropie-gauri-negre-si-demoni/)
 
+### Why has a passive net-flow system like NanoFlow not been discovered earlier?
+
+This is a fundamental and fair question.
+
+The main reason is not conceptual, but **technological and material-related**. While the idea of using asymmetric geometry to guide stochastic motion is not new (e.g. Feynman’s ratchet or synthetic Brownian motors), the **specific combination** of design features that define NanoFlow could only be practically realized with **modern advances**:
+
+1. **Material Control**  
+   Precise control over surface absorption, elasticity, and reflection was **not available** until recent decades. NanoFlow depends critically on tuning **local dissipation coefficients** (e.g. 0.55×, 0.85×, 1.5×) at micro or nano scale.
+
+2. **Simulation Capabilities**  
+   Simulating tens of thousands of particles in detailed geometries to test passive statistical drift required **modern computational tools**. Until the past ~10 years, **verifying such a mechanism** was nearly impossible.
+
+3. **Focus of Research**  
+   Most passive transport systems were explored under **strict thermodynamic symmetry assumptions**, or focused on **feedback-driven (active)** mechanisms like optical tweezers, gates, and micro-actuators. The assumption was that **flow requires bias**, not geometry.
+
+4. **Cross-disciplinary Blind Spot**  
+   NanoFlow sits between **statistical physics, nanofluidics, and material engineering**. Few projects attempted to explore fully passive, geometric-only methods of inducing net motion in this regime.
+
+As such, **NanoFlow is not a violation of known science**, but rather a product of a **previously unexplored combination of material science, simulation, and passive statistical mechanics**.
+
+It’s not that the principle was unknowable—**the required precision and imagination to test it simply didn’t exist in this form until now**.
+
 ## Conclusion
 
 NanoFlowModel is grounded in real physical principles: randomness, entropy, conservation laws, and the geometry of flow. Rather than violating the laws of thermodynamics, it investigates how intelligent structure alone can act as a passive engine of organization in systems rich with thermal energy and fluctuation.
