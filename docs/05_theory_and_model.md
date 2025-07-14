@@ -626,6 +626,36 @@ These results reinforce the idea that **information-less systems** can still pro
 
 ---
 
+## 🔄 Brownian Ratchet vs Loop Flow Model
+
+A **Brownian ratchet** (Feynman's paradox) describes a theoretical device that uses thermal fluctuations to induce net directional movement, often relying on **asymmetric teeth** or **energy barriers**. These systems typically require:
+
+- A coupling to **temperature gradients**
+- A **pawl or gating mechanism** that prevents backward motion
+- An **external load or control logic**
+
+In contrast, the **Loop Flow model** (Test008) works by:
+
+- Re-circulating particles via an elastic **loop tube** circuit
+- Modulating velocity using passive **damping and amplification zones**
+- Relying purely on **collision physics + geometry**
+
+| Feature                   | Brownian Ratchet | Loop Flow Model (Test008) |
+| ------------------------- | ---------------- | ------------------------- |
+| Requires gating           | Yes              | No                        |
+| Requires temperature diff | Often            | No                        |
+| Asymmetric geometry       | Yes              | Yes                       |
+| Recirculation loop        | No               | Yes                       |
+| Entropy-driven?           | Yes              | Yes                       |
+
+Thus, **Loop Flow** is a physical analog of a ratchet system but realized **without logic or thermodynamic violation**, relying solely on:
+
+- Entropic rectification
+- Elastic collisions
+- Structured geometry
+
+---
+
 ## 📌 Note
 
 These phenomena do not violate thermodynamic equilibrium. Instead, they show how **non-equilibrium local conditions and geometry** may bias stochastic processes in ways that **can be harvested** for passive energy transfer or propulsion applications.
