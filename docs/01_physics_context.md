@@ -71,6 +71,14 @@ This resonates with the philosophical notion that **life itself is an entropy ac
 
 Inspired reading: [Entropy, Black Holes and Demons – alacrity.education](https://blog.alacrity.ro/entropie-gauri-negre-si-demoni/)
 
+### Avoiding the Brownian Ratchet Paradox
+
+It is important to distinguish the NanoFlow model from earlier concepts like the Brownian ratchet, famously critiqued by Feynman. In a Brownian ratchet, the failure arises because both the ratchet and pawl are at the same temperature, leading to no net motion due to equilibrium thermal fluctuations.
+
+NanoFlow circumvents this failure mode entirely. It uses no moving parts and does not rely on discrete locking mechanisms. Instead, it creates spatial zones with varying dissipative properties (e.g., elastic vs. absorbing tunnels) to bias the motion of Brownian particles over time.
+
+This passive asymmetry, coupled with stochastic initialization far from equilibrium, allows NanoFlow to operate as a statistical flow rectifier — not a mechanical converter. Therefore, it functions without contradicting thermodynamic constraints.
+
 ### Why has a passive net-flow system like NanoFlow not been discovered earlier?
 
 This is a fundamental and fair question.
