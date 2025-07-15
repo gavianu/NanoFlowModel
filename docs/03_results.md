@@ -255,6 +255,26 @@ Approximate energy per zone at final step (based on particle counts):
 
 ---
 
+#### ⚙️ Estimated Mechanical Work Potential
+
+Using the kinetic energy difference between `IN` and `OUT` zones:
+
+$$
+W*{\text{net}} = E*{\text{OUT}} - E\_{\text{IN}} \approx 2.32 \times 10^{-17} \, \text{J}
+$$
+
+This value represents the **available mechanical energy** accumulated during simulation — entirely from passive Brownian motion and geometric guidance.
+
+This energy could, in theory:
+
+- Rotate a micro-rotor placed inside the funnel or OUT tube
+- Trigger a piezo layer or electromagnetic micro-dynamo
+- Be stored in a spring-like mechanical buffer
+
+Although small, this confirms that **directed thermal noise** in a closed system can accumulate into **extractable mechanical work**.
+
+---
+
 #### ⚠️ Important Note on Thermodynamic Interpretation
 
 This estimate assumes:
