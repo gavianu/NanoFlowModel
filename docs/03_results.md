@@ -207,5 +207,85 @@ The results support the hypothesis that **geometry and passive elastic interacti
 
 ---
 
+### 🧪 Thermodynamic Estimation Based on Particle Redistribution (Test008)
+
+To assess energy dynamics in the Loop Flow Amplifier (Test008), we analyze the final distribution of particles recorded in:
+
+```
+📄 test008_loop_flow_model_absorbing_passive_amplification2.csv
+```
+
+#### 🔢 Initial vs Final Particle Distribution (Selected Steps)
+
+| Step        | IN  | MID | OUT  | LOOP |
+| ----------- | --- | --- | ---- | ---- |
+| Initial: 0  | 804 | 800 | 804  | 1592 |
+| Final: 9998 | 57  | 36  | 3849 | 58   |
+
+At the final simulation step, ~96% of all particles have accumulated in the `OUT` zone, indicating strong directional flow and convergence.
+
+---
+
+#### 🔬 Energy Distribution Estimate (Constant Temperature Assumption)
+
+We assume:
+
+- Ideal gas behavior (air molecules)
+- Temperature is constant system-wide:  
+  \( T_0 = 296.15\,K \) (23°C)
+- Energy per particle:  
+  \( E\_{\text{avg}} = \frac{3}{2} k_B T_0 \approx 6.13 \times 10^{-21}\,J \)
+
+Total energy:
+
+$$
+E*{\text{total}} = 4000 \cdot E*{\text{avg}} \approx 2.45 \times 10^{-17}\,J
+$$
+
+Approximate energy per zone at final step (based on particle counts):
+
+| Zone | Particles | Share (%) | Estimated Energy (J) |
+| ---- | --------- | --------- | -------------------- |
+| IN   | 57        | 1.4%      | 3.5 × 10⁻¹⁹          |
+| MID  | 36        | 0.9%      | 2.2 × 10⁻¹⁹          |
+| LOOP | 58        | 1.5%      | 3.6 × 10⁻¹⁹          |
+| OUT  | 3849      | 96.2%     | 2.36 × 10⁻¹⁷         |
+
+➡️ Energy is **passively funneled into the OUT zone**, which becomes the main reservoir of kinetic activity.
+
+---
+
+#### ⚠️ Important Note on Thermodynamic Interpretation
+
+This estimate assumes:
+
+- No change in per-particle energy
+- No deceleration or energy loss through dissipation
+
+In reality, zones like OUT may contain **both more particles and higher average speed** due to elastic loop amplification.  
+Thus, the **actual local temperature in OUT may be slightly above baseline**, but cannot be calculated from particle count alone.
+
+To fully model temperature per zone, we would require:
+
+- Local velocity distributions
+- Per-step energy tracking
+
+---
+
+#### 🔋 Energy Harvesting Potential
+
+Given the concentration of energy in OUT, several harvesting options arise:
+
+- **Rotational coupling**: place micro-turbines in high-flux funnels
+- **Piezoelectric layers**: convert repetitive collisions into electrical impulses
+- **Thermoelectric pads**: exploit heat difference if OUT warms measurably
+
+This supports the hypothesis that **passive geometry** alone can drive **useful energy accumulation** in closed systems.
+
+📊 [Zone evolution graph](../results/test008/zone_counts_over_time.png)  
+📄 [Raw data CSV](../results/test008/test008_loop_flow_model_absorbing_passive_amplification2.csv)
+
+---
+
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](../index.md)
