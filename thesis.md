@@ -180,5 +180,39 @@ This experiment validates the core thesis — that **geometry alone** can enable
 
 ---
 
+#### ⚙️ Mechanical Work Estimation – Passive Energy Transfer
+
+To quantify the usable mechanical energy accumulated in the Loop Flow Amplifier, we compare the kinetic energy stored in `IN` versus `OUT` zones at the end of the simulation.
+
+Given:
+
+- Total simulated energy:  
+  \( E\_{\text{total}} = 2.45 \times 10^{-17} \, \text{J} \)
+- Final energy in:
+  - `IN` ≈ \( 3.5 \times 10^{-19} \, \text{J} \)
+  - `OUT` ≈ \( 2.36 \times 10^{-17} \, \text{J} \)
+
+The **net energy difference**:
+
+$$
+W*{\text{passive}} = E*{\text{OUT}} - E\_{\text{IN}} \approx 2.32 \times 10^{-17} \, \text{J}
+$$
+
+This value represents the mechanical work potentially extractable by coupling the flow to:
+
+- A passive rotor embedded in the funnel or OUT-tube
+- A miniature dynamo or electromagnetic coil
+- A piezoelectric or spring-based conversion interface
+
+Although modest in magnitude, this quantity is:
+
+- Generated **without external input**
+- The result of **Brownian motion channeled by geometry**
+- Consistent with thermodynamic constraints
+
+It confirms the feasibility of **passive energy accumulation and conversion**, aligning with the project’s broader goals: harvesting thermal noise through intelligent structural design.
+
+---
+
 ↩️ [Back to top](#)  
 ⬅️ [Back to index](index.md)
