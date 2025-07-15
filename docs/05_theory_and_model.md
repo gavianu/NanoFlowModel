@@ -776,6 +776,42 @@ This makes NanoFlow more closely related to **Brownian motors** or **diffusion f
 
 ---
 
+## 🌀 Passive Rotor Activation & Energy Amplification
+
+### Concept
+
+A **passive rotor** placed inside a flow-biased structure (e.g., `funnel1`, `out_tube`) can be activated when local kinetic flux exceeds a threshold:
+
+$$
+E_{\text{local}} \geq E_{\text{threshold\_rotor}}
+$$
+
+By engineering rotors with different activation energies (e.g., 30%, 50%, 80% of \(E\_{\text{total}}\)), they can:
+
+- Self-start at different phases of the simulation
+- Extract energy from particle collisions
+- Redistribute particle flow, reinforcing loop motion
+
+### Amplification Effect
+
+When placed before the OUT chamber or in the loop tube:
+
+- The rotor **slows some particles**, allowing others to accumulate
+- Acts like an **entropic gate** without logic
+- Triggers **recirculation** by redirecting a fraction of particles
+
+### Implication
+
+Such rotors act as **non-linear amplifiers**, turning a passive flow into a **dynamic energy reservoir** — without violating thermodynamics.
+
+This introduces a new design layer:
+
+- Smart placement
+- Multi-threshold energy zones
+- Selective kinetic absorption for flow shaping
+
+---
+
 ## 📌 Note
 
 These phenomena do not violate thermodynamic equilibrium. Instead, they show how **non-equilibrium local conditions and geometry** may bias stochastic processes in ways that **can be harvested** for passive energy transfer or propulsion applications.

@@ -54,6 +54,26 @@ This validates the thermodynamic model proposed in §5 and confirms energy conse
 
 For full mathematical formulation and interpretations, see: [docs/05_theory_and_model.md](docs/05_theory_and_model.md#loop-flow-amplifier--thermodynamic-analysis)
 
+### Passive Rotor Embedding and Threshold Amplification
+
+Building on the results from Test008, we propose a novel augmentation:
+
+→ Embedding **rotors with predefined activation thresholds** in key positions (funnels, loop tube, OUT).
+
+Each rotor:
+
+- Starts spinning only if local particle energy exceeds a calibrated value (e.g., 30% of \(E\_{\text{total}}\))
+- Redistributes particles through mechanical deflection
+- May amplify recirculation by creating controlled kinetic resistance
+
+This transforms a simple drift system into a **multi-stage amplifier**, where geometric flow is shaped dynamically by energy-dependent filters.
+
+Future designs may include:
+
+- Layered rotor banks in OUT with different thresholds
+- Combined piezo–rotor extraction for hybrid harvesting
+- Tuned energy gates for internal flow optimization
+
 ## Conclusion
 
 The preliminary results demonstrate spatial particle accumulation purely from asymmetric boundary interactions. This supports the hypothesis that local entropy reduction is possible by intelligent design alone, without violating thermodynamic laws.
