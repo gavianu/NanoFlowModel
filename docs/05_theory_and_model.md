@@ -467,6 +467,42 @@ Thus, **energy is neither created nor destroyed**, but redistributed via **passi
 
 ---
 
+### 🔍 Energy Analysis in Multi-Chamber Closed Systems (Test008)
+
+In the Loop Flow Amplifier (Test008), a closed-loop multi-chamber system was simulated to explore how directional flow can arise from thermal noise under passive constraints.
+
+#### 🔹 First Law – Can we estimate total energy?
+
+The first law holds: energy is conserved within the loop, even if its distribution changes across space and time.
+
+To estimate the **total available energy** in such a closed system:
+
+Let:
+
+- \( N \) be the number of particles
+- \( m \) be mass per particle (assumed constant)
+- \( \langle v^2 \rangle \) be the average squared speed
+- \( E\_{kin} = \frac{1}{2} m \langle v^2 \rangle \cdot N \) is total kinetic energy
+
+Assuming equilibrium-like distribution:
+
+$$
+E_{\text{kin}} \approx \frac{3}{2} N k_B T
+$$
+
+But due to the **geometry-induced drift**, some regions (e.g. `out_tube`, `loop_tube`) will statistically **store more kinetic energy**, amplifying directional flow.
+
+This suggests that even without extracting net work, we can:
+
+- **Estimate local power zones**
+- **Model usable energy transfer**, e.g. to a rotor or piezo surface
+
+#### Implication:
+
+Yes, total internal energy can be estimated, and it defines the **upper limit** of extractable energy per unit time — assuming full capture (e.g. rotor coupling).
+
+---
+
 ### 🔹 Second Law of Thermodynamics
 
 The classical form:
@@ -493,6 +529,36 @@ $$
 Where \( \delta Q \) is the infinitesimal heat added to the system and \( T \) is the absolute temperature.
 
 In NanoFlowModel, directional Brownian motion is **not a violation** of this law, because entropy increases due to **energy dissipation in absorbing walls**, even as motion becomes rectified geometrically.
+
+---
+
+### 🔍 Second Law – Entropy Preservation & Local Heating
+
+The second law is not violated. However, the loop induces **non-uniform entropy distribution**.
+
+We can **approximate local heating** via kinetic energy per region:
+
+$$
+T_{\text{local}} \propto \langle v^2 \rangle_{\text{zone}} \Rightarrow \Delta T = T_{\text{out}} - T_{\text{in}}
+$$
+
+Where:
+
+- \( \langle v^2 \rangle \) is the average velocity squared in each zone
+- The **loop-tube and OUT** zones show higher kinetic energy and particle density
+
+Thus, in principle, we can:
+
+- **Estimate temperature rise** by tracking \( \langle v^2 \rangle \)
+- Design thermal-to-electric interfaces (e.g. thermoelectrics or piezo)
+
+Mathematical model to estimate entropy generation rate:
+
+$$
+\frac{dS}{dt} = \int_V \left( \frac{\vec{J} \cdot \nabla T^{-1}}{T} + \sigma \right) dV
+$$
+
+Where \( \vec{J} \) is energy flux, and \( \sigma \) accounts for dissipation.
 
 ---
 
@@ -524,7 +590,7 @@ $$
 
 ---
 
-### 🔹 Einstein vs. Martín-Olalla Interpretation
+#### 🔹 Einstein vs. Martín-Olalla Interpretation
 
 - **Einstein's View (1912)**:  
   The Nernst theorem should be decoupled from the second law. Since no engine can operate at \( T = 0 \), it is not part of the practical thermodynamic framework. Hence, he proposed treating Nernst’s theorem as a **separate third law**.
@@ -537,7 +603,7 @@ This resolves the 120-year debate by integrating the theorem _as a limit case_ o
 
 ---
 
-### 🔹 Relevance to NanoFlowModel
+#### 🔹 Relevance to NanoFlowModel
 
 Our system operates far from \( T = 0 \), but this debate informs our philosophical foundation:
 
@@ -545,6 +611,39 @@ Our system operates far from \( T = 0 \), but this debate informs our philosophi
 - Rectification of motion is possible **without external work** input, relying purely on **microscopic structural asymmetries**.
 
 The NanoFlowModel adheres strictly to the second law. Local decreases in entropy (e.g., accumulation in one chamber) are permitted due to heat dissipation and asymmetric kinetic filtering across boundaries.
+
+---
+
+### 🔍 Third Law – Formal Relevance after Martín-Olalla (2025)
+
+While our system does not operate near absolute zero, the **2025 reconfirmation by Martín-Olalla** shows the third law is a **limit case** of the second.
+
+Relevance for NanoFlow:
+
+- Confirms that **entropy flow can be geometrically constrained**
+- No contradiction arises even if **local entropy decreases** (as seen in OUT zone), since global entropy increases (due to wall interactions)
+
+The **loop amplifier** exploits this by passively channeling stochastic motion into flow — a behavior that aligns with updated thermodynamic formalism.
+
+---
+
+### 🔌 Energy Harvesting Concept
+
+Test008 implies that by integrating:
+
+- Rotor systems in flow-tube zones
+- Piezo layers on walls exposed to repetitive collisions
+- Thermoelectric pads on OUT chambers
+
+...the system can become an **energy accumulator**, not just a drift demonstrator.
+
+Such a system:
+
+- Harvests **energy passively from chaotic motion**
+- Can potentially **store energy electrically** via dynamos driven by rotor coupling
+- Operates with **no external power**, unlike traditional microgenerators
+
+This supports a future use-case: **self-charging devices**, **autonomous sensors**, or **environmental energy sinks**.
 
 ---
 
