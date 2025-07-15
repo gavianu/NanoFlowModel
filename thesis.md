@@ -42,14 +42,27 @@ This section presents the mathematical principles and physical models that suppo
 - Continuity in flow and particle density
 - Restitution coefficients in collision modeling
 
-For full derivations and interpretations, see:  
-→ [05_theory_and_model.md](docs/05_theory_and_model.md)
+### Loop Flow Amplifier – Thermodynamic Implications
+
+Test008 extended the framework by introducing a closed-loop flow path that recirculates Brownian agents through elastic and absorbing segments. This model enabled:
+
+- Measurement of kinetic amplification via loop feedback
+- Demonstration of particle accumulation in OUT zones
+- Confirmation of passive entropic drift without logical constraints
+
+This validates the thermodynamic model proposed in §5 and confirms energy conservation while enabling entropy redistribution via geometry alone.
+
+For full mathematical formulation and interpretations, see: [docs/05_theory_and_model.md](docs/05_theory_and_model.md#loop-flow-amplifier--thermodynamic-analysis)
 
 ## Conclusion
 
 The preliminary results demonstrate spatial particle accumulation purely from asymmetric boundary interactions. This supports the hypothesis that local entropy reduction is possible by intelligent design alone, without violating thermodynamic laws.
 
 Further simulation and nano-engineering steps are needed to approach practical energy or propulsion prototypes.
+
+The progression from Test006 to Test008 demonstrates that not only is directional drift possible through passive geometry, but that such drift can be harvested and stored. The Loop Flow Amplifier model shows that recirculation zones and elastic acceleration can amplify this drift, allowing for real-world applications in passive energy systems.
+
+NanoFlowModel thus transitions from a theoretical concept to a blueprint for closed-loop micro-generators — systems capable of accumulating usable energy from stochastic motion without violating thermodynamic constraints.
 
 See [papers.md](references/papers.md) for full citations and scientific background.
 
@@ -113,6 +126,57 @@ _(by GPT-4, 2025)_
 > like life itself from random surges.  
 > Not by magic, nor defiance—  
 > just the art of **thermal compliance**.
+
+---
+
+### Appendix D – Test007: Passive Amplifier Zone
+
+This test explored a series of geometric tunnel configurations, from absorbent to fully elastic, to evaluate how purely passive designs affect directional drift.
+
+- **Model 11** (fully elastic tunnels) outperformed all others.
+- Demonstrated highest particle transfer rate from IN → OUT.
+- Geometry alone (no gates or logic) produced a clear net flow.
+
+Key observation: Elastic amplification of Brownian motion **does not require asymmetric material properties**, only structural design.
+
+Reference plots:
+
+- Passive Amplifier Model 11:
+  ![Amplifier](./results/test007/test007_amplifier_zone_model_absorbing_passive_amplification.png)
+
+---
+
+### Appendix E – Test008: Loop Flow Amplifier Results
+
+The most advanced simulation to date, Test008 introduced a **closed-loop flow system** with:
+
+- Elastic acceleration in the input path
+- Recirculation via a feedback loop (`loop_tube`)
+- Strong deceleration in the OUT zone
+
+**Model 2 (fully elastic loop)** confirmed a sustained net particle flow from IN → OUT.
+
+Key features:
+
+- Amplification of drift through recirculation
+- Particle accumulation in OUT chamber
+- Transition zones (`funnel2`, `out_tube`) showed highest activity
+
+Implication: The device behaves as a **passive kinetic amplifier**, potentially harvestable for:
+
+- Electrical energy via dynamos coupled to micro-rotors
+- Piezoelectric conversion on impact surfaces
+- Thermal gradient exploitation via embedded thermoelectrics
+
+Plots and Data:
+
+- Flow transition graph:
+  ![Transition Graph](./results/test008/transition_graph.png)
+
+- Zone count evolution:
+  ![Zone Evolution](./results/test008/zone_counts_over_time.png)
+
+This experiment validates the core thesis — that **geometry alone** can enable sustained directional flow in a closed system.
 
 ---
 

@@ -20,6 +20,25 @@ The aim is to provide a foundation for both theoretical investigation and practi
 - Conversion of chaotic thermal motion into directional bias — potentially usable for **low-power generation**.
 - Target: systems that can support **domestic energy loads**, such as lighting, sensors, or air circulation units.
 
+### 🔋 Passive Energy Accumulators (from Test008)
+
+The Loop Flow Amplifier (Test008) demonstrated that geometrically confined Brownian motion can sustain net particle flow through an elastic-feedback loop.
+
+This opens the path toward **closed-box energy accumulation systems**, using:
+
+- **Rotors** placed in funnel or loop-tube zones to transform flow into torque
+- **Dynamo coupling** to generate electrical current from rotation
+- **Piezoelectric walls** to capture energy from repetitive impacts
+- **Thermoelectric interfaces** to exploit kinetic energy differentials across chambers
+
+These designs allow for:
+
+- **Self-sustaining sensors or smart devices** powered purely by environmental noise
+- **Micro-scale energy sinks** operating without external power
+- **Environmentally embedded modules** for long-term autonomous operation
+
+This concept transforms NanoFlowModel from a passive drift demonstrator into a potential **nano-scale power plant**.
+
 ### ✈️ Propulsion and Motion Systems
 
 - Chambers with asymmetrical geometry for continuous drift, simulating micro-thrust.
