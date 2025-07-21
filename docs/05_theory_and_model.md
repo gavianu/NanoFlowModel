@@ -725,6 +725,82 @@ These results reinforce the idea that **information-less systems** can still pro
 
 ---
 
+## 🌫 Laminar Flow in NanoFlow Geometries
+
+All fluid or particle movement in NanoFlow simulations occurs in a laminar regime — meaning the flow remains orderly, with particles following statistically predictable paths without turbulence.
+
+This condition arises due to:
+
+- Very low particle velocities
+- Small system dimensions
+- Viscous-dominated motion
+
+Laminarity is crucial: it ensures that **geometric features (funnels, chambers, asymmetries)** can reliably influence particle trajectories.  
+Unlike turbulent systems where randomness overrides geometry, laminar flow allows **directional control through passive structure alone**.
+
+NanoFlow thus leverages **entropic modulation of laminar Brownian motion**, achieving directional bias without force, temperature gradients, or active feedback.
+
+In NanoFlowModel, all simulated particle movement takes place under **laminar flow conditions**, meaning the motion is smooth, ordered, and free from turbulence.
+
+This regime is defined by a low **Reynolds number** \( Re \), which compares inertial to viscous forces:
+
+### Reynolds number (dimensionless)
+
+$$
+Re = \frac{\rho v L}{\mu}
+$$
+
+Where:
+
+- \( \rho \) = fluid density
+- \( v \) = characteristic velocity
+- \( L \) = characteristic length (e.g., funnel width)
+- \( \mu \) = dynamic viscosity
+
+In NanoFlow, due to microscopic scales and low velocities, we have:
+
+$$
+Re \ll 2000 \quad \Rightarrow \quad \text{laminar regime}
+$$
+
+---
+
+### 🧪 Why it matters
+
+Laminar flow allows:
+
+- **Stable particle trajectories** — crucial for simulating Brownian drift
+- **Predictable interactions with boundaries** — necessary for funnel/channel design
+- **Geometric control** — without flow reversal or chaotic recirculation
+
+This condition makes it possible for **asymmetrical geometry** to exert **statistical bias** over particle motion, even in the absence of force fields.
+
+---
+
+### 🔁 Entropic Laminarity
+
+Unlike pressure-driven laminar flow in classical pipes, NanoFlow generates **directional behavior** by:
+
+- leveraging the smooth flow regime,
+- breaking spatial symmetry passively,
+- and allowing **entropy-based modulation**.
+
+This gives rise to what may be described as **entropic laminar drift** — a condition where structure and dissipation replace mechanical pumps.
+
+---
+
+### 🧱 Role of Material Interaction
+
+While the overall regime remains laminar, particle behavior is strongly influenced by **local wall interactions**. NanoFlow uses material zones with varying properties:
+
+- **Elastic surfaces** preserve momentum and amplify motion
+- **Absorbing walls** reduce kinetic energy and decelerate flow
+- **Textured or asymmetric coatings** bias re-emission angles
+
+These effects **do not break laminarity**, but they **modify the statistical outcome** of collisions. Thus, material engineering becomes an integral part of directional control, alongside geometry.
+
+---
+
 ## 🔄 Brownian Ratchet vs Loop Flow Model
 
 A **Brownian ratchet** (Feynman's paradox) describes a theoretical device that uses thermal fluctuations to induce net directional movement, often relying on **asymmetric teeth** or **energy barriers**. These systems typically require:

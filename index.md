@@ -62,4 +62,4 @@ System artifacts (e.g. `.DS_Store`) and local configuration files are excluded v
 
 ---
 
-_Last updated: July 15, 2025_
+_Last updated: July 21, 2025_

@@ -20,6 +20,8 @@ This document outlines the core physical principles behind the NanoFlowModel pro
 
 - **Non-equilibrium systems**: Only systems that are out of thermal or chemical equilibrium can produce net transport or perform work from asymmetrical geometry. Otherwise, the second law of thermodynamics prevents any directed motion or energy gain.
 
+- **Laminar flow**: A flow regime in which fluid particles move in parallel layers without disruption between them. In NanoFlowModel, all motion occurs at low Reynolds numbers, making the environment inherently laminar. This condition allows the geometry to influence trajectories reliably, enabling entropic drift and passive directional bias.
+
 ## 🔁 Entropic Funnels and Directed Drift
 
 - **Directional confinement**: A structured chamber that includes a nozzle-like exit can create a net bias in particle motion, even in the presence of purely random Brownian dynamics. This is achieved through entropic filtering — particles are more likely to escape in the direction of the geometrical funnel.
