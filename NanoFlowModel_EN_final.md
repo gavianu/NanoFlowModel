@@ -12,15 +12,15 @@ This repository documents the development of **NanoFlowModel**, a theoretical an
 
 ## 📂 Documentation Structure
 
-### 🧭 00 – [Introduction](./docs/00_introduction.md)
+### 🧭 00 – Introduction
 
 Overview of the hypothesis: transforming chaotic motion into directional flow using geometry and particle-environment interaction.
 
-### 🔬 01 – [Physics Context](./docs/01_physics_context.md)
+### 🔬 01 – Physics Context
 
 Scientific foundations: Brownian motion, statistical mechanics, ratchet theory, Fokker–Planck dynamics, Bernoulli flow, and thermodynamic analogies.
 
-### 🧪 02 – [Experiment Log](./docs/02_experiment_log.md)
+### 🧪 02 – Experiment Log
 
 Step-by-step digital simulations:
 
@@ -33,15 +33,15 @@ Step-by-step digital simulations:
 - Test007 – Adaptive Geometry Flow (Dynamic Chamber Modulation)
 - Test008 - Loop Flow Amplifier
 
-### 📊 03 – [Results](./docs/03_results.md)
+### 📊 03 – Results
 
 Summary tables and data plots, including particle trajectories, accumulation patterns, and mean drift behavior.
 
-### 🚀 04 – [Future Plans & Applications](./docs/04_future_plans.md)
+### 🚀 04 – Future Plans & Applications
 
 Envisioned use cases: passive environmental control, nano-energy harvesting, and autonomous drive propulsion.
 
-### 🧠 05 – [Theoretical Framework & Simulation Models](./docs/05_theory_and_model.md)
+### 🧠 05 – Theoretical Framework & Simulation Models
 
 Analytical models used: Langevin dynamics, Fokker–Planck equations, continuity of particle flux, and Brownian energy gradients.
 
@@ -49,10 +49,10 @@ Analytical models used: Langevin dynamics, Fokker–Planck equations, continuity
 
 ## 📎 Additional Materials
 
-- 🗂️ [Link Index & Navigation](./links.md)
-- 📚 [Scientific Papers & References](./references/papers.md)
-- 📄 [Thesis Draft](./thesis.md) — work-in-progress bachelor thesis
-- 🎴 [NanoFlow Poetic Reflection](./docs/poetry.md)
+- 🗂️ Link Index & Navigation
+- 📚 Scientific Papers & References
+- 📄 Thesis Draft — work-in-progress bachelor thesis
+- 🎴 NanoFlow Poetic Reflection
 
 ---
 
@@ -60,29 +60,29 @@ Analytical models used: Langevin dynamics, Fokker–Planck equations, continuity
 
 ## 🔗 Related Repositories
 
-- [vortex-box-test (GitHub)](https://github.com/yourusername/vortex-box-test)
-- [flow-bias-walls](#)
-- [fractal-tube-model](#)
+- vortex-box-test (GitHub)
+- flow-bias-walls
+- fractal-tube-model
 
 ## 📂 Internal Navigation
 
-- [📘 Index](index.md)
-- [📄 Introduction](docs/00_introduction.md)
-- [📄 Physics Context](docs/01_physics_context.md)
-- [📄 Experimental Log](docs/02_experiment_log.md)
-- [📄 Results](docs/03_results.md)
-- [📄 References](references/papers.md)
-- [📄 Future Plans](docs/04_future_plans.md)
-- [📁 Simulation Results](results/)
-- [📜 Poetic Reflection](docs/poetry.md)
+- 📘 Index
+- 📄 Introduction
+- 📄 Physics Context
+- 📄 Experimental Log
+- 📄 Results
+- 📄 References
+- 📄 Future Plans
+- 📁 Simulation Results
+- 📜 Poetic Reflection
 
 ## 📐 Models and Equations
 
-- [Theoretical Framework and Simulation Model](docs/05_theory_and_model.md)
+- Theoretical Framework and Simulation Model
 
 ## 📄 Drafts and Deliverables
 
-- [🎓 Bachelor Thesis Draft](thesis.md)
+- 🎓 Bachelor Thesis Draft
 
 # Introduction
 
@@ -165,7 +165,7 @@ The NanoFlowModel aligns with reflections on entropy, as seen in modern interpre
 
 This resonates with the philosophical notion that **life itself is an entropy accelerator**, optimizing energy dissipation while maintaining local order. NanoFlowModel replicates this dynamic at microscale using purely structural bias — with no external energy input.
 
-Inspired reading: [Entropy, Black Holes and Demons – alacrity.education](https://blog.alacrity.ro/entropie-gauri-negre-si-demoni/)
+Inspired reading: Entropy, Black Holes and Demons – alacrity.education
 
 ### Avoiding the Brownian Ratchet Paradox
 
@@ -255,8 +255,8 @@ NanoFlowModel is grounded in real physical principles: randomness, entropy, cons
 
 - **Results integrated in**:
 
-  - [Results summary](03_results.md#test004--terrace-wall-drift)
-  - [Future plans](04_future_plans.md#smart-passive-wall-cooling)
+  - Results summary
+  - Future plans
 
 ## 🧪 Test005 – Flow Amplifier Chamber (with Logging)
 
@@ -270,9 +270,9 @@ NanoFlowModel is grounded in real physical principles: randomness, entropy, cons
 
 📎 Related files:
 
-- [`heat_drift_exit_data.csv`](../results/test005/heat_drift_exit_data.csv)
-- [`test005_exit_plot.png`](../results/test005/test005_exit_plot.png)
-- [Simulation source](https://github.com/gavianu/vortex-box-test/blob/main/test005_flow_amplifier/test005_flow_amplifier_logged.py)
+- `heat_drift_exit_data.csv`
+- `test005_exit_plot.png`
+- Simulation source
 
 ---
 
@@ -291,10 +291,10 @@ To test whether multi-chamber elastic guidance amplifies net particle drift and 
 
 **Files**:
 
-- Simulation: [`test006c_cascade_flow_v5.py`](https://github.com/gavianu/vortex-box-test/blob/main/test006_cascade_amplifier/test006c_cascade_flow_v5.py)
-- Data CSV: [`test006c_cascade_flow_v5_data.csv`](../results/test006/test006c_cascade_flow_v5_data.csv)
-- Screenshot: ![render](../results/test006/test006c_render.png)
-- Plot: ![plot](../results/test006/test006c_cascade_flow_plot.png)
+- Simulation: `test006c_cascade_flow_v5.py`
+- Data CSV: `test006c_cascade_flow_v5_data.csv`
+- Screenshot: !render
+- Plot: !plot
 
 ---
 
@@ -325,10 +325,10 @@ To test whether multi-chamber elastic guidance amplifies net particle drift and 
 
 📸 Visual References:
 
-| Configuration Type   | Screenshot                                                                                        |
-| -------------------- | ------------------------------------------------------------------------------------------------- |
-| Symmetric (no flow)  | ![Symmetric](../results/test007/test007_amplifier_zone_model_symmetric_flow.png)                  |
-| Passive Amplifier 11 | ![Amplifier](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification.png) |
+| Configuration Type   | Screenshot |
+| -------------------- | ---------- |
+| Symmetric (no flow)  | !Symmetric |
+| Passive Amplifier 11 | !Amplifier |
 
 📁 Files:
 
@@ -364,36 +364,36 @@ To test whether multi-chamber elastic guidance amplifies net particle drift and 
   - Model 2 yielded the **strongest OUT throughput**, confirming that loop elasticity supports directional bias.
   - The system exhibits **fluid-like particle flow**, with measurable zone transitions and repeatable current formation.
 
-![Loop Amplifier](../results/test008/test008_loop_flow_model_absorbing_passive_amplification.png)
+!Loop Amplifier
 
 A large-scale model simulating a closed-loop passive structure using only geometrical constraints and elastic/absorbing walls. Designed to test whether directional Brownian motion can be amplified in a loop.
 
-📂 [See results](03_results.md#test008-loop-flow-amplifier--results)  
-📈 [Transition heatmap](../results/test008/zone_transition_heatmap.png)  
-📈 [Flow graph](../results/test008/transition_graph.png)  
-📈 [Zone evolution](results/zone_counts_over_time.png)
+📂 See results  
+📈 Transition heatmap  
+📈 Flow graph  
+📈 Zone evolution
 
 ➡️ The experiment demonstrates that **net flow from IN to OUT is possible**, with amplification due to **loop-tube recycling** and **elastic acceleration** through the central funnel.
 
 **Resources:**
 
-- [zone_transitions.csv](../results/test008/zone_transitions.csv)
-- [test008_loop_flow_model_absorbing_passive_amplification2.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification2.csv)
-- [zone_transitions_summary.csv](../results/test008/zone_transition_summary.csv)
+- zone_transitions.csv
+- test008_loop_flow_model_absorbing_passive_amplification2.csv
+- zone_transitions_summary.csv
 
 ---
 
 # Experimental Results Summary
 
-| Test # | Description                     | Net Flow         | X̄ Position                       | Notes                                             |
-| ------ | ------------------------------- | ---------------- | -------------------------------- | ------------------------------------------------- |
-| 001    | Uniform cube                    | None             | ~0.0000 m                        | Baseline for Brownian chaos                       |
-| 002    | Dual-wall asymmetry             | Rightward        | ~+0.0300 m                       | Passive entropic accumulation                     |
-| 003    | Heat Drift Geometry             | Strong drift     | ~+0.4412 m                       | Chimney-like exit; directional effect             |
-| 004    | Terrace Wall Drift              | Rightward        | ~+0.42 m                         | Simulated heat rejection via reflection           |
-| 005    | Chamber with directional funnel | Flow Amplifier   | ~36% (Exit % (after 2000 steps)) | ![plot](../results/test005/test005_exit_plot.png) |
-| 006    | Cascade Amplifier               | Rightward        | ~+0.24 m                         | Multi-stage chambers w/ elastic funnels           |
-| 007    | Passive Amplifier Zone          | Strong rightward | ~+0.62 m (Model 11)              | Elastic-only geometry outperforms cascade logic   |
+| Test # | Description                     | Net Flow         | X̄ Position                       | Notes                                           |
+| ------ | ------------------------------- | ---------------- | -------------------------------- | ----------------------------------------------- |
+| 001    | Uniform cube                    | None             | ~0.0000 m                        | Baseline for Brownian chaos                     |
+| 002    | Dual-wall asymmetry             | Rightward        | ~+0.0300 m                       | Passive entropic accumulation                   |
+| 003    | Heat Drift Geometry             | Strong drift     | ~+0.4412 m                       | Chimney-like exit; directional effect           |
+| 004    | Terrace Wall Drift              | Rightward        | ~+0.42 m                         | Simulated heat rejection via reflection         |
+| 005    | Chamber with directional funnel | Flow Amplifier   | ~36% (Exit % (after 2000 steps)) | !plot                                           |
+| 006    | Cascade Amplifier               | Rightward        | ~+0.24 m                         | Multi-stage chambers w/ elastic funnels         |
+| 007    | Passive Amplifier Zone          | Strong rightward | ~+0.62 m (Model 11)              | Elastic-only geometry outperforms cascade logic |
 
 ---
 
@@ -405,7 +405,7 @@ The results suggest that **directional accumulation** can occur in completely ra
 
 ### Test002 – Dual-wall asymmetry
 
-- ![📈 plot](../results/test002_dual_wall_asymmetry_plot.png)
+- !📈 plot
 
 ---
 
@@ -417,16 +417,16 @@ The results suggest that **directional accumulation** can occur in completely ra
 
 Output:
 
-- [CSV log](../results/heat_drift_with_exit_positions.csv)
-- [📈 Position plot](../results/test003_mean_position_plot.png)
+- CSV log
+- 📈 Position plot
 
 #### Test003 Results Summary
 
 The inclusion of an asymmetric "exit" region at the top-right corner leads to a visible shift in the mean particle positions, confirming the geometric biasing hypothesis.
 
-![Test003 Plot](../results/test003_mean_position_plot.png)
+!Test003 Plot
 
-👉 See [04_future_plans.md](./04_future_plans.md) for product applications and prototyping.
+👉 See 04_future_plans.md for product applications and prototyping.
 
 ---
 
@@ -440,7 +440,7 @@ The inclusion of an asymmetric "exit" region at the top-right corner leads to a 
 
 📊 Output:
 
-- [CSV log](../results/test004_terrace_wall_drift.csv)
+- CSV log
 
 _Observation_: The stronger rebound velocity from the terrace wall promotes a shift in particle density toward the chimney-like exit.
 
@@ -465,9 +465,9 @@ _Observation_: The stronger rebound velocity from the terrace wall promotes a sh
 
 📊 Output:
 
-- [CSV log](../results/test006/test006c_cascade_flow_v5_data.csv)
-- ![Render](../results/test006/test006c_render.png)
-- ![Plot](../results/test006/test006c_cascade_flow_plot.png)
+- CSV log
+- !Render
+- !Plot
 
 📈 Summary:
 
@@ -496,9 +496,9 @@ This experiment explored whether a combination of purely geometric elements and 
 
 #### 📈 Plots:
 
-- ![Symmetric Flow](../results/test007/test007_amplifier_zone_model_symmetric_flow.png)
-- ![Passive Amplifier 11](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification.png)
-- ![Comparative Evolution](../results/test007/test007_amplifier_models_comparison_plot.png)
+- !Symmetric Flow
+- !Passive Amplifier 11
+- !Comparative Evolution
 
 🔍 Observation:
 
@@ -521,26 +521,26 @@ The following files contain the raw step-by-step particle counts (IN, MID, OUT) 
 
 #### 🔹 Control / Comparative Models:
 
-- [test007_amplifier_zone_model_symmetric_flow.csv](../results/test007/test007_amplifier_zone_model_symmetric_flow.csv)  
+- test007_amplifier_zone_model_symmetric_flow.csv  
   → Symmetric layout with identical IN/OUT channels. Baseline with **no directional flow**.
 
-- [test007_amplifier_zone_model_passive_cascade.csv](../results/test007/test007_amplifier_zone_model_passive_cascade.csv)  
+- test007_amplifier_zone_model_passive_cascade.csv  
   → Logical funnel cascade (Test006-style). Flow exists, but lower than passive elastic geometries.
 
 #### 🔹 Amplifier Models (Passive Geometric Rectification):
 
-- [test007_amplifier_zone_model_absorbing_passive_amplification1.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification1.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification2.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification2.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification3.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification3.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification4.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification4.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification5.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification5.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification6.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification6.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification7.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification7.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification8.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification8.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification9.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification9.csv)
-- [test007_amplifier_zone_model_absorbing_passive_amplification10.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification10.csv)
-- ✅ **[test007_amplifier_zone_model_absorbing_passive_amplification11.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification11.csv)** – best performing configuration
-- [test007_amplifier_zone_model_absorbing_passive_amplification12.csv](../results/test007/test007_amplifier_zone_model_absorbing_passive_amplification12.csv)
+- test007_amplifier_zone_model_absorbing_passive_amplification1.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification2.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification3.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification4.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification5.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification6.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification7.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification8.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification9.csv
+- test007_amplifier_zone_model_absorbing_passive_amplification10.csv
+- ✅ **test007_amplifier_zone_model_absorbing_passive_amplification11.csv** – best performing configuration
+- test007_amplifier_zone_model_absorbing_passive_amplification12.csv
 
 Each `.csv` includes:
 
@@ -570,21 +570,21 @@ Step,IN,MID,OUT
 
 **Key Data Files:**
 
-- 📄 [zone_transitions.csv](../results/test008/zone_transitions.csv)
-- 📄 [test008_loop_flow_model_absorbing_passive_amplification1.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification1.csv)
-- 📄 [test008_loop_flow_model_absorbing_passive_amplification2.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification2.csv)
-- 📄 [test008_loop_flow_model_absorbing_passive_amplification3.csv](../results/test008/test008_loop_flow_model_absorbing_passive_amplification3.csv)
-- 📈 [Transition heatmap](../results/test008/zone_transition_heatmap.png)
-- 📈 [Flow graph](../results/test008/transition_graph.png)
-- 📈 [Zone evolution](results/zone_counts_over_time.png)
+- 📄 zone_transitions.csv
+- 📄 test008_loop_flow_model_absorbing_passive_amplification1.csv
+- 📄 test008_loop_flow_model_absorbing_passive_amplification2.csv
+- 📄 test008_loop_flow_model_absorbing_passive_amplification3.csv
+- 📈 Transition heatmap
+- 📈 Flow graph
+- 📈 Zone evolution
 
 **Graphs:**
 
-- ![](../results/test008/transition_percentages_heatmap.png)
-- ![](../results/test008/transition_graph.png)
-- ![](../results/test008/zone_counts_over_time.png)
-- ![](../results/test008/zone_transition_heatmap.png)
-- ![](../results/test008/zone_occupancy_heatmap.png)
+- ![](results/test008/transition_percentages_heatmap.png)
+- ![](results/test008/transition_graph.png)
+- ![](results/test008/zone_counts_over_time.png)
+- ![](results/test008/zone_transition_heatmap.png)
+- ![](results/test008/zone_occupancy_heatmap.png)
 
 **Conclusion:**
 
@@ -617,9 +617,9 @@ We assume:
 
 - Ideal gas behavior (air molecules)
 - Temperature is constant system-wide:  
-  \( T_0 = 296.15\,K \) (23°C)
+  \[ T_0 = 296.15\,K \] (23°C)
 - Energy per particle:  
-  \( E\_{\text{avg}} = \frac{3}{2} k_B T_0 \approx 6.13 \times 10^{-21}\,J \)
+  $$ E\_{\text{avg}} = \frac{3}{2} k_B T_0 \approx 6.13 \times 10^{-21}\,J $$
 
 Total energy:
 
@@ -687,8 +687,8 @@ Given the concentration of energy in OUT, several harvesting options arise:
 
 This supports the hypothesis that **passive geometry** alone can drive **useful energy accumulation** in closed systems.
 
-📊 [Zone evolution graph](../results/test008/zone_counts_over_time.png)  
-📄 [Raw data CSV](../results/test008/test008_loop_flow_model_absorbing_passive_amplification2.csv)
+📊 Zone evolution graph  
+📄 Raw data CSV
 
 ---
 
@@ -795,9 +795,9 @@ Whether pursued in academic labs, tech incubators, or garage setups, the results
 
 ## 📁 Related Files
 
-- [02_experiment_log.md](02_experiment_log.md)
-- [03_results.md](03_results.md)
-- [CSV result](../results/test004_terrace_wall_drift.csv)
+- 02_experiment_log.md
+- 03_results.md
+- CSV result
 
 ---
 
@@ -955,7 +955,7 @@ This equation underlies more detailed simulations in molecular dynamics or therm
 
 ## 🧪 Fokker–Planck Equation – Probability Density Evolution
 
-The Fokker–Planck equation describes how the **probability density function** \( P(\vec{r}, t) \) evolves over time in systems with stochastic motion, such as Brownian diffusion.
+The Fokker–Planck equation describes how the **probability density function** $$ P(\vec{r}, t) $$ evolves over time in systems with stochastic motion, such as Brownian diffusion.
 
 ### 📏 1D Form:
 
@@ -1284,8 +1284,8 @@ Let:
 
 - \( N \) be the number of particles
 - \( m \) be mass per particle (assumed constant)
-- \( \langle v^2 \rangle \) be the average squared speed
-- \( E\_{kin} = \frac{1}{2} m \langle v^2 \rangle \cdot N \) is total kinetic energy
+- $$ \langle v^2 \rangle $$ be the average squared speed
+- $$ E\_{kin} = \frac{1}{2} m \langle v^2 \rangle \cdot N $$ is total kinetic energy
 
 Assuming equilibrium-like distribution:
 
@@ -1347,12 +1347,12 @@ $$
 
 Where:
 
-- \( \langle v^2 \rangle \) is the average velocity squared in each zone
+- $$ \langle v^2 \rangle $$ is the average velocity squared in each zone
 - The **loop-tube and OUT** zones show higher kinetic energy and particle density
 
 Thus, in principle, we can:
 
-- **Estimate temperature rise** by tracking \( \langle v^2 \rangle \)
+- **Estimate temperature rise** by tracking $$ \langle v^2 \rangle $$
 - Design thermal-to-electric interfaces (e.g. thermoelectrics or piezo)
 
 Mathematical model to estimate entropy generation rate:
@@ -1361,7 +1361,7 @@ $$
 \frac{dS}{dt} = \int_V \left( \frac{\vec{J} \cdot \nabla T^{-1}}{T} + \sigma \right) dV
 $$
 
-Where \( \vec{J} \) is energy flux, and \( \sigma \) accounts for dissipation.
+Where $$ \vec{J} $$ is energy flux, and $$ \sigma $$ accounts for dissipation.
 
 ---
 
@@ -1466,9 +1466,9 @@ $$
 
 Where:
 
-- \( \vec{J} \) is the local energy or mass flux
+- $$ \vec{J} $$ is the local energy or mass flux
 - \( T \) is the temperature
-- \( \sigma \) is entropy generated internally (e.g., from dissipation)
+- $$ \sigma $$ is entropy generated internally (e.g., from dissipation)
 
 Even in systems without thermal gradients, **geometrically induced particle flux** can serve as a proxy for entropy redistribution.
 
@@ -1496,8 +1496,8 @@ $$
 
 Where:
 
-- \( \theta(\vec{r}) \) is an indicator function of the target zone (1 inside, 0 outside)
-- \( \vec{r}\_i(t) \) is the position of particle \( i \) at time \( t \)
+- $$ \theta(\vec{r}) $$ is an indicator function of the target zone (1 inside, 0 outside)
+- $$ \vec{r}\_i(t) $$ is the position of particle \( i \) at time \( t \)
 
 This formulation helps **quantify drift** without requiring continuous differential modeling.
 
@@ -1767,7 +1767,7 @@ This section collects the key scientific concepts, research papers, and theoreti
 - **Third Law of Thermodynamics and Nernst Theorem**
 
   - Nernst, W. (1905). _Experimental and theoretical foundation of thermochemistry._ Nobel Lecture.
-  - Martín-Olalla, J. M. (2025). _Proof of the Nernst Theorem_. The European Physical Journal Plus. DOI: [10.1140/epjp/s13360-025-06503-w](https://doi.org/10.1140/epjp/s13360-025-06503-w)
+  - Martín-Olalla, J. M. (2025). _Proof of the Nernst Theorem_. The European Physical Journal Plus. DOI: 10.1140/epjp/s13360-025-06503-w
 
   Recent work by Martín-Olalla (2025) resolves the long-standing debate between Nernst and Einstein over the logical placement of the Nernst theorem within thermodynamic theory. His rigorous proof demonstrates that the theorem is not an independent postulate but rather a consequence of the second law itself, via a virtual-engine framework that does not violate entropy constraints.
 
@@ -1834,5 +1834,5 @@ As the project evolves into product-oriented designs or field applications, furt
 
 ## Philosophical and Conceptual Reflections
 
-- Sima Bianca-Ioana, Blog Alacrity (2025). _Entropie, găuri negre și demoni._ [Link](https://blog.alacrity.ro/entropie-gauri-negre-si-demoni/)
+- Sima Bianca-Ioana, Blog Alacrity (2025). _Entropie, găuri negre și demoni._ Link
 - Leff, H.S. & Rex, A.F. (2014). _Maxwell’s Demon 2: Entropy, Classical and Quantum Information, Computing._
